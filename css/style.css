@@ -28,7 +28,7 @@ a:hover {
     font-size: 17px;
 }
 #video-dagmar {
-    margin: 100px auto 0 !important;
+    margin: 100px auto !important;
     display: block;
     width: 60%;
 }
@@ -46,13 +46,16 @@ p {
     line-height: 28px;
 }
 a.button {
-    background: #fff;
-    padding: 10px 20px;
-    color: #000 !important;
-    margin: 100px auto;
-    display: block;
-    text-decoration: none !important;
-    border-bottom: 0 !important;
+		background: #fff;
+		padding: 15px 40px !important;
+		color: #000 !important;
+		margin: 100px auto;
+		display: block;
+		text-align: center;
+		text-decoration: none !important;
+		border-bottom: 0 !important;
+		font-size: 16px;
+		text-transform: uppercase;
 }
 a.button:hover {
     background: #c7ecee;
@@ -84,6 +87,9 @@ a.button:hover {
 .team-member-title {
     display: block !important;
     margin-top: 10px;
+}
+#projects-list, #team {
+	margin-bottom: 100px;
 }
 #projects-list p {
     margin-bottom: 30px;
