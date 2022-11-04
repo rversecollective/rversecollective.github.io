@@ -1,0 +1,299 @@
+<!doctype html><html><head><title>r_verse collective</title><meta name="description" content="r_verse collective"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>#imml a.portal:not(.inline) {
+  display: block;
+}
+
+#imml .pages > .page:target ~ .page:last-child,
+#imml .pages > .page {
+  display: none;
+}
+
+/* :last-child works, but for some reason .page:last-child will not */
+#imml .pages > :last-child,
+#imml .pages > .page:target {
+  display: block;
+}
+
+#imml .pages > :last-child .breadcrumbs {
+  visibility: hidden;
+}
+</style><style>:root {
+  --imml-text-light: #333333;
+  --imml-text-dark: #eeeeee;
+  --imml-background-light: #ffffff;
+  --imml-background-dark: #121212;
+  --imml-accent-light: dodgerblue;
+  --imml-accent-dark: dodgerblue;
+}
+
+:root {
+  --imml-background: var(--imml-background-light);
+  --imml-text: var(--imml-text-light);
+  --imml-text-inverse: var(--imml-text-dark);
+  --imml-accent: var(--imml-accent-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --imml-background: var(--imml-background-dark);
+    --imml-text: var(--imml-text-dark);
+    --imml-text-inverse: var(--imml-text-light);
+    --imml-accent: var(--imml-accent-dark);
+  }
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100%;
+  color: var(--imml-text);
+  background: var(--imml-background);
+}
+
+.pages {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.pages .page {
+  padding-top: 2em;
+  padding-bottom: 10em;
+}
+
+.page .breadcrumbs {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+p {
+  line-height: 22px;
+}
+
+a {
+  width: fit-content;
+  color: var(--imml-accent);
+  border-bottom: 1px dotted var(--imml-accent);
+  text-decoration: none;
+}
+
+hr {
+  border-style: solid;
+  border-bottom: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 0.5em solid var(--imml-text-inverse);
+  padding: 0 1em;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+code {
+  background: var(--imml-text-inverse);
+  border-radius: 0.25em;
+  padding: 0em 0.25em;
+  font-family: monospace;
+  display: inline-block;
+}
+pre code {
+  padding: 0.5em 0.5em;
+}
+pre {
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  margin-top: 0.25em;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  text-align: left;
+  font-weight: bold;
+}
+thead tr {
+  border-bottom: 1px solid;
+}
+tr {
+  border-bottom: 1px dashed;
+}
+td,
+th {
+  padding: 4px;
+}
+</style><style class="imml">
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+    @font-face {
+        font-family:'GT Pressura Mono';
+        src:url("https://neontomo.com/css/fonts/GTPressuraMono.woff2");
+    }
+    body {
+        background: #000 !important;
+        color: #fff !important;
+        font-family: 'GT Pressura Mono' !important;
+    }
+    a {
+        color: #fff !important;
+        text-decoration: none !important;
+        border-bottom: 0 !important;
+    }
+    a:hover {
+        border-bottom: 4px solid #c7ecee !important;
+        padding-bottom: 5px;
+        color: #c7ecee !important;
+    }
+    #nav {
+        padding: 0px !important;
+    }
+    #nav a {
+        margin-right: 20px;
+        font-size: 17px;
+    }
+    #video-dagmar {
+        margin: 0 auto;
+        display: block;
+        width: 60%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    h3 {
+        margin: 0 !important;
+        line-height: 15px;
+    }
+    p {
+        line-height: 28px;
+    }
+    a.button {
+        background: #fff;
+        padding: 10px 20px;
+        color: #000 !important;
+        margin: 100px auto;
+        display: block;
+        text-decoration: none !important;
+        border-bottom: 0 !important;
+    }
+    a.button:hover {
+        background: #c7ecee;
+    }
+    #team {
+    }
+    #team img {
+        max-width: 130px;
+        border-radius: 100px;
+        margin-right: 20px;
+    }
+    .team-member {
+        margin-bottom: 30px;
+    }
+    .team-member img {
+        display: inline-block !important;
+        vertical-align: top;
+    }
+    .team-member-desc {
+        display: inline-block !important;
+        width: 250px;
+        vertical-align: top;
+        margin-top: 30px;
+    }
+    .team-member-name {
+        display: block !important;
+    }
+    .team-member-title {
+        display: block !important;
+        margin-top: 10px;
+    }
+    #projects-list p {
+        margin-bottom: 30px;
+    }
+    .mid-point-symbol {
+        color: #333;
+    }
+</style></head><body><div id="imml"><div class="pages"><div class="page" id="home"><div class="breadcrumbs"><span>home</span></div><div id="nav">
+    <a href="#who-are-we">1_who are we?</a>
+    <a href="#projects">2_projects</a>
+</div>
+<h1>r<span class="mid-point-symbol">_</span>verse collective</h1>
+
+
+<p><strong>Digital experiences need a human component</strong>, because ideas worth exploring feel like holding a living heart in your hands.</p>
+<p>Working intimately with internet technology, we are inclusive, seeking perspective and asking bigger questions.</p>
+<p>Each of us has a voice, let your story unfold.</p>
+<p><a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a></p>
+<img src="https://neontomo.com/projects/r_verse/dagmar.gif" id="video-dagmar">
+
+<p><a id="who-are-we"></a></p>
+<h2>Who are we?</h2>
+
+<p>r_verse collective is co-run by three beating hearts.<br><br></p>
+<div id="team">
+    <div class="team-member">
+        <img src="https://neontomo.com/projects/r_verse/dagmar.jpg">
+        <div class="team-member-desc">
+            <span class="team-member-name">Dagmar Irrig</span>
+            <span class="team-member-title">3d and motion artist, designer, runner</span>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="https://neontomo.com/projects/r_verse/tua.jpg">
+        <div class="team-member-desc">
+            <span class="team-member-name">Tua Asplund</span>
+            <span class="team-member-title">Business leader, creative strategist</span>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="https://neontomo.com/img/story/neonboy.jpg">
+        <div class="team-member-desc">
+            <span class="team-member-name">Tomo Myrman</span>
+            <span class="team-member-title">Artist, author, provocateur</span>
+        </div>
+    </div>
+</div>
+<div id="projects-list">
+    <a id="projects"></a>
+    <h2>Our projects</h2>
+    <h3>2022_UN Women</h3>
+    <p>We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
+    <h3>2022_Min Stora Sorg</h3>
+    <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the digital and physical world.</p>
+</div>
+<a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script type="text/javascript">
+var symbols = ['/', '_', '&', '!', '=', ';', '+', '>'];
+function randomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function getRandomSymbol() {
+    var oldSymbol = $('.mid-point-symbol').html();
+    var symbol = symbols[randomInteger(0, symbols.length - 1)];
+    if (oldSymbol == symbol) {
+        return getRandomSymbol();
+    }
+    return symbol;
+}
+setInterval(function () {
+    $('.mid-point-symbol').html(getRandomSymbol());
+}, 2000);
+</script>
+<link rel="stylesheet" href="https://neontomo.com/css/stylee.css" type="text/css"></div></div></div></body></html>

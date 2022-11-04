@@ -1,0 +1,172 @@
+$description: r_verse collective
+$title: r_verse collective
+$theme: dark
+
+[home]
+    <div id="nav">
+        <a href="#who-are-we">1_who are we?</a>
+        <a href="#projects">2_projects</a>
+    </div>
+    <h1>r<span class="mid-point-symbol">_</span>verse collective</h1>
+
+
+    <strong>Digital experiences need a human component</strong>, because ideas worth exploring feel like holding a living heart in your hands.
+    
+    Working intimately with internet technology, we are inclusive, seeking perspective and asking bigger questions.
+    
+    Each of us has a voice, let your story unfold.
+
+    <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+
+    <img src="https://neontomo.com/projects/r_verse/dagmar.gif" id="video-dagmar" />
+    
+    <a id="who-are-we"></a>
+    <h2>Who are we?</h2>
+
+    r_verse collective is co-run by three beating hearts.<br /><br />
+
+    <div id="team">
+        <div class="team-member">
+            <img src="https://neontomo.com/projects/r_verse/dagmar.jpg" />
+            <div class="team-member-desc">
+                <span class="team-member-name">Dagmar Irrig</span>
+                <span class="team-member-title">3d and motion artist, designer, runner</span>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="https://neontomo.com/projects/r_verse/tua.jpg" />
+            <div class="team-member-desc">
+                <span class="team-member-name">Tua Asplund</span>
+                <span class="team-member-title">Business leader, creative strategist</span>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="https://neontomo.com/img/story/neonboy.jpg" />
+            <div class="team-member-desc">
+                <span class="team-member-name">Tomo Myrman</span>
+                <span class="team-member-title">Artist, author, provocateur</span>
+            </div>
+        </div>
+    </div>
+    <div id="projects-list">
+        <a id="projects"></a>
+        <h2>Our projects</h2>
+        <h3>2022_UN Women</h3>
+        <p>We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
+        <h3>2022_Min Stora Sorg</h3>
+        <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the digital and physical world.</p>
+    </div>
+    <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+    var symbols = ['/', '_', '&', '!', '=', ';', '+', '>'];
+    function randomInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    function getRandomSymbol() {
+        var oldSymbol = $('.mid-point-symbol').html();
+        var symbol = symbols[randomInteger(0, symbols.length - 1)];
+        if (oldSymbol == symbol) {
+            return getRandomSymbol();
+        }
+        return symbol;
+    }
+    setInterval(function () {    
+        $('.mid-point-symbol').html(getRandomSymbol());
+    }, 2000);
+    </script>
+    <link rel=stylesheet href="https://neontomo.com/css/stylee.css" type="text/css" />
+$style:
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+        @font-face {
+            font-family:'GT Pressura Mono';
+            src:url("https://neontomo.com/css/fonts/GTPressuraMono.woff2");
+        }
+        body {
+            background: #000 !important;
+            color: #fff !important;
+            font-family: 'GT Pressura Mono' !important;
+        }
+        a {
+            color: #fff !important;
+            text-decoration: none !important;
+            border-bottom: 0 !important;
+        }
+        a:hover {
+            border-bottom: 4px solid #c7ecee !important;
+            padding-bottom: 5px;
+            color: #c7ecee !important;
+        }
+        #nav {
+            padding: 0px !important;
+        }
+        #nav a {
+            margin-right: 20px;
+            font-size: 17px;
+        }
+        #video-dagmar {
+            margin: 0 auto;
+            display: block;
+            width: 60%;
+        }
+        h1 {
+            font-size: 45px;
+        }
+        h2 {
+            font-size: 30px;
+            margin-top: 100px;
+        }
+        h3 {
+            margin: 0 !important;
+            line-height: 15px;
+        }
+        p {
+            line-height: 28px;
+        }
+        a.button {
+            background: #fff;
+            padding: 10px 20px;
+            color: #000 !important;
+            margin: 100px auto;
+            display: block;
+            text-decoration: none !important;
+            border-bottom: 0 !important;
+        }
+        a.button:hover {
+            background: #c7ecee;
+        }
+        #team {
+        }
+        #team img {
+            max-width: 130px;
+            border-radius: 100px;
+            margin-right: 20px;
+        }
+        .team-member {
+            margin-bottom: 30px;
+        }
+        .team-member img {
+            display: inline-block !important;
+            vertical-align: top;
+        }
+        .team-member-desc {
+            display: inline-block !important;
+            width: 250px;
+            vertical-align: top;
+            margin-top: 30px;
+        }
+        .team-member-name {
+            display: block !important;
+        }
+        .team-member-title {
+            display: block !important;
+            margin-top: 10px;
+        }
+        #projects-list p {
+            margin-bottom: 30px;
+        }
+        .mid-point-symbol {
+            color: #333;
+        }
+    </style>
