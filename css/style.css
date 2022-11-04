@@ -87,3 +87,6 @@ a.button:hover {
 #symbol {
     color: #333;
 }
+.breadcrumbs {
+    display: none;
+}
