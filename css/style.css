@@ -28,7 +28,7 @@ a:hover {
     font-size: 17px;
 }
 #video-dagmar {
-    margin: 0 auto;
+    margin: 100px auto 0 !important;
     display: block;
     width: 60%;
 }
@@ -37,7 +37,6 @@ h1 {
 }
 h2 {
     font-size: 30px;
-    margin-top: 100px;
 }
 h3 {
     margin: 0 !important;
@@ -58,13 +57,16 @@ a.button {
 a.button:hover {
     background: #c7ecee;
 }
+#team {
+	margin-top: 30px;
+}
 #team img {
     max-width: 130px;
     border-radius: 100px;
     margin-right: 20px;
 }
 .team-member {
-    margin-bottom: 30px;
+    margin-bottom: 50px !important;
 }
 .team-member img {
     display: inline-block !important;
