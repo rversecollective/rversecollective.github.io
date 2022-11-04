@@ -5,7 +5,7 @@ function randomInteger(min, max) {
 }
 
 function getRandomSymbol() {
-	 var oldSymbol = $('.mid-point-symbol').html();
+	 var oldSymbol = document.querySelector('#symbol').innerHTML;
 	 var symbol = symbols[randomInteger(0, symbols.length - 1)];
 	 if (oldSymbol == symbol) {
 			 return getRandomSymbol();
@@ -14,5 +14,5 @@ function getRandomSymbol() {
 }
 
 setInterval(function () {
-	 $('.mid-point-symbol').html(getRandomSymbol());
+	 document.querySelector('#symbol').innerHTML = getRandomSymbol();
 }, 2000);
