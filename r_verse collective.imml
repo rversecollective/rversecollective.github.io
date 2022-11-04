@@ -9,7 +9,6 @@ $theme: dark
     </div>
     <h1>r<span class="mid-point-symbol">_</span>verse collective</h1>
 
-
     <strong>Digital experiences need a human component</strong>, because ideas worth exploring feel like holding a living heart in your hands.
     
     Working intimately with internet technology, we are inclusive, seeking perspective and asking bigger questions.
@@ -58,115 +57,8 @@ $theme: dark
     </div>
     <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript">
-    var symbols = ['/', '_', '&', '!', '=', ';', '+', '>'];
-    function randomInteger(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-    function getRandomSymbol() {
-        var oldSymbol = $('.mid-point-symbol').html();
-        var symbol = symbols[randomInteger(0, symbols.length - 1)];
-        if (oldSymbol == symbol) {
-            return getRandomSymbol();
-        }
-        return symbol;
-    }
-    setInterval(function () {    
-        $('.mid-point-symbol').html(getRandomSymbol());
-    }, 2000);
-    </script>
-    <link rel=stylesheet href="https://neontomo.com/css/stylee.css" type="text/css" />
+    <script src="https://rversecollective.github.io/js/script.js"></script>
+    <link rel=stylesheet href="https://rversecollective.github.io/css/style.css" type="text/css" />
 $style:
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-        @font-face {
-            font-family:'GT Pressura Mono';
-            src:url("https://neontomo.com/css/fonts/GTPressuraMono.woff2");
-        }
-        body {
-            background: #000 !important;
-            color: #fff !important;
-            font-family: 'GT Pressura Mono' !important;
-        }
-        a {
-            color: #fff !important;
-            text-decoration: none !important;
-            border-bottom: 0 !important;
-        }
-        a:hover {
-            border-bottom: 4px solid #c7ecee !important;
-            padding-bottom: 5px;
-            color: #c7ecee !important;
-        }
-        #nav {
-            padding: 0px !important;
-        }
-        #nav a {
-            margin-right: 20px;
-            font-size: 17px;
-        }
-        #video-dagmar {
-            margin: 0 auto;
-            display: block;
-            width: 60%;
-        }
-        h1 {
-            font-size: 45px;
-        }
-        h2 {
-            font-size: 30px;
-            margin-top: 100px;
-        }
-        h3 {
-            margin: 0 !important;
-            line-height: 15px;
-        }
-        p {
-            line-height: 28px;
-        }
-        a.button {
-            background: #fff;
-            padding: 10px 20px;
-            color: #000 !important;
-            margin: 100px auto;
-            display: block;
-            text-decoration: none !important;
-            border-bottom: 0 !important;
-        }
-        a.button:hover {
-            background: #c7ecee;
-        }
-        #team {
-        }
-        #team img {
-            max-width: 130px;
-            border-radius: 100px;
-            margin-right: 20px;
-        }
-        .team-member {
-            margin-bottom: 30px;
-        }
-        .team-member img {
-            display: inline-block !important;
-            vertical-align: top;
-        }
-        .team-member-desc {
-            display: inline-block !important;
-            width: 180px;
-            vertical-align: top;
-            margin-top: 30px;
-        }
-        .team-member-name {
-            display: block !important;
-        }
-        .team-member-title {
-            display: block !important;
-            margin-top: 10px;
-        }
-        #projects-list p {
-            margin-bottom: 30px;
-        }
-        .mid-point-symbol {
-            color: #333;
-        }
     </style>
