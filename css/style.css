@@ -15,7 +15,7 @@ a {
     border-bottom: 0 !important;
 }
 a:hover {
-    border-bottom: 4px solid #c7ecee !important;
+    border-bottom: 4px solid #fff !important;
     padding-bottom: 5px;
 }
 #nav {
