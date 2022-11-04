@@ -1,8 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 @font-face {
     font-family: 'GT Pressura Mono';
     src: url("../fonts/GTPressuraMono.woff2");
+}
+html {
+    overflow-y: overlay;
 }
 body {
     background: #000 !important;
