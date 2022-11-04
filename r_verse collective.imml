@@ -40,7 +40,7 @@ $theme: dark
             </div>
         </div>
         <div class="team-member">
-            <img src="https://rversecollective.github.io/tomo.jpg" />
+            <img src="https://rversecollective.github.io/img/tomo.jpg" />
             <div class="team-member-desc">
                 <span class="team-member-name">Tomo Myrman</span>
                 <span class="team-member-title">Artist, author, provocateur</span>
