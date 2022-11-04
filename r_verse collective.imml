@@ -17,7 +17,7 @@ $theme: dark
 
     <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
 
-    <img src="https://neontomo.com/projects/r_verse/dagmar.gif" id="video-dagmar" />
+    <img src="https://rversecollective.github.io/img/dagmar.gif" id="video-dagmar" />
     
     <a id="who-are-we"></a>
     <h2>Who are we?</h2>
@@ -26,21 +26,21 @@ $theme: dark
 
     <div id="team">
         <div class="team-member">
-            <img src="https://neontomo.com/projects/r_verse/dagmar.jpg" />
+            <img src="https://rversecollective.github.io/img/dagmar.jpg" />
             <div class="team-member-desc">
                 <span class="team-member-name">Dagmar Irrig</span>
                 <span class="team-member-title">3d and motion artist, designer, runner</span>
             </div>
         </div>
         <div class="team-member">
-            <img src="https://neontomo.com/projects/r_verse/tua.jpg" />
+            <img src="https://rversecollective.github.io/img/tua.jpg" />
             <div class="team-member-desc">
                 <span class="team-member-name">Tua Asplund</span>
                 <span class="team-member-title">Business leader, creative strategist</span>
             </div>
         </div>
         <div class="team-member">
-            <img src="https://neontomo.com/img/story/neonboy.jpg" />
+            <img src="https://rversecollective.github.io/tomo.jpg" />
             <div class="team-member-desc">
                 <span class="team-member-name">Tomo Myrman</span>
                 <span class="team-member-title">Artist, author, provocateur</span>
