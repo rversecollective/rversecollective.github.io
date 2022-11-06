@@ -1,15 +1,61 @@
-var symbols = ['/', '_', '&', '!', '=', ';', '+', '>'];
+var speed = 900;
+var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':'];
 
-function randomInteger(min, max) {
-	 return Math.floor(Math.random() * (max - min + 1)) + min;
+Array.prototype.random = function () {
+	return this[Math.floor((Math.random()*this.length))];
 }
 
 function getRandomSymbol() {
-	 var symbol = symbols[randomInteger(0, symbols.length - 1)];
-	 if (symbol == document.getElementById('symbol').innerHTML) return getRandomSymbol();
-	 return symbol;
+	var symbol = symbols.random();
+	var newSymbol = (symbol == $('#symbol').html()) ? getRandomSymbol() : symbol;
+	return newSymbol;
 }
 
-setInterval(function () {
-	document.getElementById('symbol').innerHTML = getRandomSymbol();
-}, 1800);
+function fadeOutSymbol() {
+	$('#symbol').animate({ opacity: 0 }, speed, function () {
+		$('#symbol').html(getRandomSymbol());
+		fadeInSymbol();
+	});
+}
+
+function fadeInSymbol() {
+	$('#symbol').animate({ opacity: 1 }, speed, function () {
+		setTimeout(function () {
+			fadeOutSymbol();
+		}, 1000);
+	});
+}
+
+setTimeout(function () {
+	fadeOutSymbol();
+}, 500);
+
+// button hover
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
+}
+
+var originalText = $('a.button').html();
+var secondText = originalText;
+var alt = '_';
+
+
+$('a.button').on('mouseover', function () {
+    buttonChange = setInterval(function() {
+        var index = secondText.indexOf(alt);
+        if (index == -1) {
+            secondText = secondText.replaceAt(0, alt);
+        } else if (index == originalText.length - 1) {
+            secondText = originalText;
+        } else {
+            secondText = originalText.replaceAt(index + 1, alt);
+        }
+        $('a.button').html(secondText);
+    }, 120);
+});
+
+$('a.button').on('mouseout', function () {
+    clearInterval(buttonChange);
+    $('a.button').html(originalText);
+    secondText = originalText;
+});

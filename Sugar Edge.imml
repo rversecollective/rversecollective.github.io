@@ -73,6 +73,7 @@ $theme: dark
             <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the digital and physical world.</p>
         </div>
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://sugaredge.github.io/js/script.js"></script>
     <link rel=stylesheet href="https://sugaredge.github.io/css/style.css" type="text/css" />
 $style:
