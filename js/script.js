@@ -2,7 +2,11 @@ var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':'];
 
 Array.prototype.random = function () {
-	return this[Math.floor((Math.random()*this.length))];
+	return this[Math.floor((Math.random() * this.length))];
+}
+
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
 }
 
 function getRandomSymbol() {
@@ -31,9 +35,6 @@ setTimeout(function () {
 }, 500);
 
 // button hover
-String.prototype.replaceAt = function(index, replacement) {
-    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
-}
 
 var originalText = $('a.button').html();
 var secondText = originalText;
