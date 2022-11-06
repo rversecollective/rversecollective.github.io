@@ -33,7 +33,8 @@ $theme: dark
             <a href="#projects">3_projects</a>
         </div>
         <h1>Who are we?</h1>
-        Sugar Edge collective is co-run by three beating hearts.<br /><br />
+        Sugar Edge collective is co-run by three beating hearts.
+        <br /><br />
         <div id="team">
             <div class="team-member">
                 <img src="https://sugaredge.github.io/img/dagmar.jpg" />
@@ -57,6 +58,10 @@ $theme: dark
                 </div>
             </div>
         </div>
+        
+        We are passionate about improving lives with technology. To do that, we consider human needs and perspectives before involving any technology. We see every day how programmers, scientists and engineers create groundbreaking tools — but what happens when you put those inventions in the hands of artists, designers, architects and poets?
+        
+        That's our curiosity.
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
 
     [[projects(Projects)]]
@@ -65,8 +70,12 @@ $theme: dark
             <a href="#who">2_who are we?</a>
             <a href="#projects">3_projects</a>
         </div>
+        <h1>Our projects</h1>
+        Recycling is for plastics, not experiences.
+
+        We develop our projects with integrity and care, custom-tailoring provocations for each client.
+
         <div id="projects-list">
-            <h1>Our projects</h1>
             <h3>2022_UN Women</h3>
             <p>We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
             <h3>2022_Min Stora Sorg</h3>
@@ -74,8 +83,8 @@ $theme: dark
         </div>
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="https://sugaredge.github.io/js/script.js"></script>
-    <link rel=stylesheet href="https://sugaredge.github.io/css/style.css" type="text/css" />
+    <script src="./js/script.js"></script>
+    <link rel=stylesheet href="./style.css" type="text/css" />
 $style:
     <style>
     </style>

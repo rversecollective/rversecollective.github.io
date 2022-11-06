@@ -88,6 +88,9 @@ a.button:hover {
     display: block !important;
     margin-top: 10px;
 }
+#projects-list {
+	margin-top: 50px;
+}
 #projects-list, #team {
 	margin-bottom: 100px;
 }
