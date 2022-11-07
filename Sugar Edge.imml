@@ -18,7 +18,7 @@ $theme: dark
 
     <img src="https://sugaredge.github.io/img/dagmar.gif" id="video-dagmar" />
 
-    <h2>A necessary discomfort.</h2>
+    <h2>A necessary discomfort</h2>
 
     To create dynamics that serve all of society, we can't simply adapt the stories of the past into a digital space. The emerging world requires radical imagination and a keen smell for shifting realities.
 
@@ -40,6 +40,7 @@ $theme: dark
                 <img src="https://sugaredge.github.io/img/dagmar.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Dagmar Irrig</span>
+                    <a target="_blank" href="https://www.instagram.com/dagmarirrig/">@dagmarirrig</a>
                     <span class="team-member-title">3d and motion artist, designer, runner</span>
                 </div>
             </div>
@@ -47,6 +48,7 @@ $theme: dark
                 <img src="https://sugaredge.github.io/img/tua.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tua Asplund</span>
+                    <a target="_blank" href="https://www.instagram.com/tuaasplund/">@tuaasplund</a>
                     <span class="team-member-title">Business leader, creative strategist</span>
                 </div>
             </div>
@@ -54,12 +56,13 @@ $theme: dark
                 <img src="https://sugaredge.github.io/img/tomo.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tomo Myrman</span>
+                    <a target="_blank" href="https://www.instagram.com/neontomo">@neontomo</a>
                     <span class="team-member-title">Artist, author, provocateur</span>
                 </div>
             </div>
         </div>
         
-        We are passionate about improving lives with technology. To do that, we consider human needs and perspectives before involving any tech. We see every day how programmers, scientists and engineers create groundbreaking tools — but what happens when you put those inventions in the hands of artists, designers, architects and poets?
+        What happens when you put new technologies in the hands of artists, designers, architects and poets?
         
         That's our curiosity.
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
@@ -83,8 +86,8 @@ $theme: dark
         </div>
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="./js/script.js"></script>
-    <link rel=stylesheet href="./css/style.css" type="text/css" />
+    <script src="https://sugaredge.github.io/js/script.js"></script>
+    <link rel=stylesheet href="https://sugaredge.github.io//css/style.css" type="text/css" />
 $style:
     <style>
     </style>
