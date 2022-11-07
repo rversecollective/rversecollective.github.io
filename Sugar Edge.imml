@@ -4,7 +4,7 @@ $theme: dark
 
 [home]
     <div id="nav">
-        <a href="#">1_sugar edge</a>
+        <a href="#">1_home</a>
         <a href="#who">2_who are we?</a>
         <a href="#projects">3_projects</a>
     </div>
@@ -24,7 +24,7 @@ $theme: dark
     
     [[who(Who are we?)]]
         <div id="nav">
-            <a href="#">1_sugar edge</a>
+            <a href="#">1_home</a>
             <a href="#who">2_who are we?</a>
             <a href="#projects">3_projects</a>
         </div>
@@ -66,7 +66,7 @@ $theme: dark
 
     [[projects(Projects)]]
         <div id="nav">
-            <a href="#">1_sugar edge</a>
+            <a href="#">1_home</a>
             <a href="#who">2_who are we?</a>
             <a href="#projects">3_projects</a>
         </div>
@@ -82,7 +82,7 @@ $theme: dark
         <a href="mailto:r.verse.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://sugaredge.github.io/js/script.js"></script>
-    <link rel=stylesheet href="https://sugaredge.github.io//css/style.css" type="text/css" />
+    <link rel=stylesheet href="https://sugaredge.github.io/css/style.css" type="text/css" />
 $style:
     <style>
     </style>
