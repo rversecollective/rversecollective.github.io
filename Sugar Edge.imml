@@ -10,15 +10,13 @@ $theme: dark
     </div>
     <h1>Sugar<span id="symbol">_</span>Edge</h1>
 
-    <strong>Digital experiences need a human component</strong>, because ideas worth exploring feel like you're holding a living heart in your hands.
-    
-    Working intimately at the intersection of Internet technology and real-life, we are inclusive, seeking perspective and asking bigger questions.
+    We can't simply adapt the stories of the real world  into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
+
+    What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.
 
     <img src="https://sugaredge.github.io/img/dagmar.gif" id="video-dagmar" />
 
-    <h2>A necessary discomfort</h2>
-
-    We can't simply adapt the stories of the past into a digital space. The emerging world requires radical imagination and a keen smell for shifting realities. We challenge the norm, will you?
+    Virtual experiences need a human component, because ideas worth exploring feel like you're holding a living heart in your hands.
 
     <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     
@@ -38,7 +36,7 @@ $theme: dark
                 <div class="team-member-desc">
                     <span class="team-member-name">Dagmar Irrig</span>
                     <a target="_blank" href="https://www.instagram.com/dagmarirrig/">@dagmarirrig</a>
-                    <span class="team-member-title">3d and motion artist, designer, runner</span>
+                    <span class="team-member-title">3d artist, motion designer, runner</span>
                 </div>
             </div>
             <div class="team-member">
@@ -46,7 +44,7 @@ $theme: dark
                 <div class="team-member-desc">
                     <span class="team-member-name">Tua Asplund</span>
                     <a target="_blank" href="https://www.instagram.com/tuaasplund/">@tuaasplund</a>
-                    <span class="team-member-title">Business leader, creative strategist</span>
+                    <span class="team-member-title">Business leader, creative thinker & technologist</span>
                 </div>
             </div>
             <div class="team-member">
@@ -58,10 +56,7 @@ $theme: dark
                 </div>
             </div>
         </div>
-        
-        What happens when you put new technologies in the hands of artists, designers, architects and poets?
-        
-        That's our curiosity.
+
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
 
     [[projects(Projects)]]
@@ -71,7 +66,8 @@ $theme: dark
             <a href="#projects">3_projects</a>
         </div>
         <h1>Projects</h1>
-        Recycling is for plastics, not experiences. 
+
+        Recycling is for plastics, not experiences.
 
         <div id="projects-list">
             <h3>2022_UN Women</h3>
