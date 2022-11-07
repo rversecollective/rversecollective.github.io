@@ -4,7 +4,7 @@ $theme: dark
 
 [home]
     <div id="nav">
-        <a href="#">1_home</a>
+        <a href="#">1_sugar edge</a>
         <a href="#who">2_who are we?</a>
         <a href="#projects">3_projects</a>
     </div>
@@ -24,7 +24,7 @@ $theme: dark
     
     [[who(Who are we?)]]
         <div id="nav">
-            <a href="#">1_home</a>
+            <a href="#">1_sugar edge</a>
             <a href="#who">2_who are we?</a>
             <a href="#projects">3_projects</a>
         </div>
@@ -66,11 +66,11 @@ $theme: dark
 
     [[projects(Projects)]]
         <div id="nav">
-            <a href="#">1_home</a>
+            <a href="#">1_sugar edge</a>
             <a href="#who">2_who are we?</a>
             <a href="#projects">3_projects</a>
         </div>
-        <h1>Our projects</h1>
+        <h1>Projects</h1>
         Recycling is for plastics, not experiences. 
 
         <div id="projects-list">

@@ -1,5 +1,5 @@
 var speed = 900;
-var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':'];
+var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
 
 Array.prototype.random = function () {
 	return this[Math.floor((Math.random() * this.length))];
