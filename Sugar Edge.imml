@@ -36,7 +36,7 @@ $theme: dark
                 <div class="team-member-desc">
                     <span class="team-member-name">Dagmar Irrig</span>
                     <a target="_blank" href="https://www.instagram.com/dagmarirrig/">@dagmarirrig</a>
-                    <span class="team-member-title">3d artist, motion designer, runner</span>
+                    <span class="team-member-title">3d artist, motion designer & runner</span>
                 </div>
             </div>
             <div class="team-member">
@@ -52,7 +52,7 @@ $theme: dark
                 <div class="team-member-desc">
                     <span class="team-member-name">Tomo Myrman</span>
                     <a target="_blank" href="https://www.instagram.com/neontomo">@neontomo</a>
-                    <span class="team-member-title">Artist, author, provocateur</span>
+                    <span class="team-member-title">Artist, author & provocateur</span>
                 </div>
             </div>
         </div>
