@@ -34,7 +34,8 @@ $theme: dark
         </div>
         <h1>Who are we?</h1>
         Sugar Edge collective is co-run by three beating hearts.
-        <br /><br />
+
+        Follow us: <a target="_blank" href="https://www.instagram.com/sugar.edge.collective">@sugar.edge.collective</a>
         <div id="team">
             <div class="team-member">
                 <img src="https://sugaredge.github.io/img/dagmar.jpg" />
