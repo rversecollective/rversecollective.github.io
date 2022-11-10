@@ -10,7 +10,7 @@ async function ease() {
 	$("#box").animate({ left: randomInteger(100, $('body').width() - 100), top: randomInteger(100, $('body').height() - 100) }, 8000).delay(1000);
 	ease();
 }
-ease();
+//ease();
 
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
