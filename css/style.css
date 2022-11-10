@@ -5,6 +5,7 @@
 }
 html {
     overflow-y: overlay;
+	    overflow-x: hidden;
 }
 body {
     background: #000 !important;
@@ -102,4 +103,18 @@ a.button:hover {
 }
 .breadcrumbs {
     display: none;
+}
+
+#box {
+	width: 5px;
+	height: 5px;
+	position: fixed;
+	background: #fff;
+	box-shadow:
+    0 0 30px 5px #fff,  /* inner white */
+    0 0 50px 20px #f0f, /* middle magenta */
+    0 0 70px 15px #0ff;
+	border-radius: 100px;
+	z-index: -1000;
+	opacity: 0.5;
 }

@@ -1,3 +1,17 @@
+$('body').append('<span id="box"></span>');
+$('#box').css('left', '500px');
+$('#box').css('top', '500px');
+
+function randomInteger(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+async function ease() {
+	$("#box").animate({ left: randomInteger(100, $('body').width() - 100), top: randomInteger(100, $('body').height() - 100) }, 8000).delay(1000);
+	ease();
+}
+ease();
+
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
 
@@ -15,18 +29,18 @@ function getRandomSymbol() {
 	return newSymbol;
 }
 
-function fadeOutSymbol() {
-	$('#symbol').animate({ opacity: 0 }, speed, function () {
-		$('#symbol').html(getRandomSymbol());
-		fadeInSymbol();
-	});
-}
-
-function fadeInSymbol() {
-	$('#symbol').animate({ opacity: 1 }, speed, function () {
+async function fadeInSymbol() {
+	$('#symbol').animate({ opacity: 1 }, 1000, function () {
 		setTimeout(function () {
 			fadeOutSymbol();
 		}, 1000);
+	});
+}
+
+async function fadeOutSymbol() {
+	$('#symbol').animate({ opacity: 0 }, 1000, function () {
+		$('#symbol').html(getRandomSymbol());
+		fadeInSymbol();
 	});
 }
 
@@ -39,7 +53,6 @@ setTimeout(function () {
 var originalText = $('a.button').html();
 var secondText = originalText;
 var alt = '_';
-
 
 $('a.button').on('mouseover', function () {
     buttonChange = setInterval(function() {
