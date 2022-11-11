@@ -8,8 +8,8 @@ function getRandomCoordinates() {
 
 async function ease() {
 	$('.glow').each(function () {
-		var size = randomInteger(3, 10).toString() + 'px';
-		$(this).animate({ width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(5000, 10000));
+		var size = randomInteger(3, 8).toString() + 'px';
+		$(this).animate({ opacity: '0.' + randomInteger(0, 9).toString(), width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(5000, 10000));
 	});
 	setTimeout(function () {
 		ease();

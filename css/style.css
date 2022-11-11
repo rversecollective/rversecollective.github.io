@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap');
 html {
     overflow-y: overlay;
 	    overflow-x: hidden;
@@ -7,6 +8,9 @@ body {
     background: #000 !important;
     color: #fff !important;
     font-family: 'JetBrains Mono' !important;
+}
+h1, h2, h3, a.button {
+	font-family: 'Spline Sans Mono' !important;
 }
 a {
     color: #fff !important;
@@ -52,7 +56,6 @@ a.button {
 		text-decoration: none !important;
 		border-bottom: 0 !important;
 		font-size: 16px;
-		text-transform: uppercase;
 }
 a.button:hover {
     background: #c7ecee;
