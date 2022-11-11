@@ -1,16 +1,28 @@
-/*$('body').append('<span id="box"></span>');
-$('#box').css('left', '500px');
-$('#box').css('top', '500px');*/
-
 function randomInteger(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-async function ease() {
-	$("#box").animate({ left: randomInteger(100, $('body').width() - 100), top: randomInteger(100, $('body').height() - 100) }, 8000).delay(1000);
-	ease();
+function getRandomCoordinates() {
+	return [randomInteger(100, $('body').width() - 100), randomInteger(100, $('body').height() - 100)];
 }
-//ease();
+
+async function ease() {
+	$('.glow').each(function () {
+		var size = randomInteger(3, 10).toString() + 'px';
+		$(this).animate({ width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(5000, 10000));
+	});
+	setTimeout(function () {
+		ease();
+	}, 800);
+}
+
+$('.glow').each(function () {
+	$(this).css({ width: '5px', height: '5px', left: '0px', top: '0px'});
+});
+
+setTimeout(function () {
+	ease();
+}, 1000);
 
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];

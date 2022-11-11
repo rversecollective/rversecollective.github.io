@@ -101,7 +101,7 @@ a.button:hover {
     display: none;
 }
 
-#box {
+.glow {
 	width: 5px;
 	height: 5px;
 	position: fixed;
@@ -112,5 +112,5 @@ a.button:hover {
     0 0 70px 15px #0ff;
 	border-radius: 100px;
 	z-index: -1000;
-	opacity: 0.5;
+	opacity: 0.6;
 }

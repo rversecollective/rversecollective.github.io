@@ -43,7 +43,6 @@ $theme: dark
                 <img src="https://sugaredge.github.io/img/tua.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tua Asplund</span>
-                    <a target="_blank" href="https://www.instagram.com/tuaasplund/">@tuaasplund</a>
                     <span class="team-member-title">Business leader, creative thinker & technologist</span>
                 </div>
             </div>
