@@ -21,16 +21,26 @@ for (var i = 0; i < nav.length; i++) {
 function randomInteger(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+function randomDecimal(min, max) {
+	return (Math.random() * (max - min) + min).toFixed(1);
+}
 
 function getRandomCoordinates() {
 	return [randomInteger(100, $('body').width() - 100), randomInteger(100, $('body').height() - 100)];
 }
-
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
 async function ease() {
 	$('.glow').each(function () {
-		//var size = randomInteger(3, 30).toString() + 'px';
-		var opacity = '0.' + randomInteger(3, 9).toString();
-		$(this).animate({ opacity: opacity, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(3000, 10000));
+		var opacity = randomInteger(0.3, 1);
+		var speed = randomInteger(1000, 10000);
+		$(this).animate({ opacity: opacity, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, speed);
 	});
 	setTimeout(function () {
 		ease();
