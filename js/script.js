@@ -1,8 +1,7 @@
 var nav = [
 	['home', '#'],
 	['who?', '#who'],
-	['projects', '#projects'],
-	['deep', '#deep'],
+	['projects', '#projects']
 ];
 
 for (var i = 0; i < nav.length; i++) {
