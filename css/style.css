@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 html {
     overflow-y: overlay;
 	    overflow-x: hidden;
@@ -6,7 +6,7 @@ html {
 body {
     background: #000 !important;
     color: #fff !important;
-    font-family: 'Space Mono' !important;
+    font-family: 'JetBrains Mono' !important;
 }
 a {
     color: #fff !important;
