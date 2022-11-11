@@ -41,7 +41,7 @@ setInterval(function () {
 	} else {
 		$('#glow-arena .glow').fadeOut({ queue: false, duration: 'slow' });
 	}
-}, 1000);
+}, 2000);
 
 $.fn.isInViewport = function() {
     var elementTop = $(this).offset().top;
