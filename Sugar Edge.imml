@@ -47,8 +47,14 @@ $theme: dark
                 </div>
             </div>
         </div>
-
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <span id="keep-scrolling">Keep scrolling.</span>
+        <div id="glow-arena">
+            <span class="glow" name="Tua"></span>
+            <span class="glow" name="Dagmar"></span>
+            <span class="glow" name="Tomo"></span>
+        </div>
 
     [[projects(Projects)]]
         <div class="nav"></div>
@@ -63,12 +69,6 @@ $theme: dark
             <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the virtual and physical world.</p>
         </div>
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
-
-    [[deep(Deep)]]
-        <div class="nav"></div>
-        <span class="glow"></span>
-        <span class="glow"></span>
-        <span class="glow"></span>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/script.js"></script>
     <link rel=stylesheet href="css/style.css" type="text/css" />

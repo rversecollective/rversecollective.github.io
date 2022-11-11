@@ -118,7 +118,7 @@ a.button:hover {
 	opacity: 0.6;
 }
 
-span.glow::after {
+.glow::after {
 	content: attr(name);
 	color: #fff;
 	position: fixed;
@@ -128,4 +128,12 @@ span.glow::after {
 	font-size: 12px;
 	margin-left: -27px;
 	margin-top: -60px;
+}
+
+#glow-arena {
+background: transparent;
+display: block;
+height: 2000px;
+width: 100px;
+margin-top: 100px;
 }

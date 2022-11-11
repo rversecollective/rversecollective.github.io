@@ -34,6 +34,26 @@ $('.glow').each(function () {
 
 ease();
 
+$('#glow-arena .glow').hide();
+
+setInterval(function () {
+	if ($('#glow-arena').isInViewport() && !$('#keep-scrolling').isInViewport()) {
+		$('#glow-arena .glow').fadeIn({ queue: false, duration: 'slow' });
+	} else {
+		$('#glow-arena .glow').fadeOut({ queue: false, duration: 'slow' });
+	}
+}, 1000);
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
 
