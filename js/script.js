@@ -1,12 +1,4 @@
-$.fn.isInViewport = function() {
-    var elementTop = $(this).offset().top;
-    var elementBottom = elementTop + $(this).outerHeight();
-
-    var viewportTop = $(window).scrollTop();
-    var viewportBottom = viewportTop + $(window).height();
-
-    return elementBottom > viewportTop && elementTop < viewportBottom;
-};
+//nav
 
 var nav = [
 	['home', '#'],
@@ -18,34 +10,7 @@ for (var i = 0; i < nav.length; i++) {
 	$('.nav').append('<a href="' + nav[i][1] + '">' + (i + 1) + '_' + nav[i][0] + '</a>');
 }
 
-function randomInteger(min, max) {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-function randomDecimal(min, max) {
-	return (Math.random() * (max - min) + min).toFixed(1);
-}
-
-function getRandomCoordinates() {
-	return [randomInteger(100, $('body').width() - 100), randomInteger(100, $('body').height() - 100)];
-}
-function getRandomColor() {
-  var letters = '0123456789ABCDEF';
-  var color = '#';
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
-async function ease() {
-	$('.glow').each(function () {
-		var opacity = randomInteger(0.3, 1);
-		var speed = randomInteger(1000, 10000);
-		$(this).animate({ opacity: opacity, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, speed);
-	});
-	setTimeout(function () {
-		ease();
-	}, 800);
-}
+// glowing orbs
 
 $('.glow').each(function () {
 	$(this).css({ left: '-100px', top: '-100px'});
@@ -56,44 +21,16 @@ ease();
 $('#glow-arena .glow').hide();
 
 setInterval(function () {
-	if ($('#glow-arena').isInViewport() && !$('#keep-scrolling').isInViewport()) {
+	if ($('#glow-arena').isInViewport() && $('#glow-arena:visible').length && !$('#keep-scrolling').isInViewport()) {
 		$('#glow-arena .glow').fadeIn({ queue: false, duration: 'slow' });
 	} else {
 		$('#glow-arena .glow').fadeOut({ queue: false, duration: 'slow' });
 	}
 }, 2000);
 
+// change symbol in header
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
-
-Array.prototype.random = function () {
-	return this[Math.floor((Math.random() * this.length))];
-}
-
-String.prototype.replaceAt = function(index, replacement) {
-    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
-}
-
-function getRandomSymbol() {
-	var symbol = symbols.random();
-	var newSymbol = (symbol == $('#symbol').html()) ? getRandomSymbol() : symbol;
-	return newSymbol;
-}
-
-async function fadeInSymbol() {
-	$('#symbol').animate({ opacity: 1 }, 1000, function () {
-		setTimeout(function () {
-			fadeOutSymbol();
-		}, 1000);
-	});
-}
-
-async function fadeOutSymbol() {
-	$('#symbol').animate({ opacity: 0 }, 1000, function () {
-		$('#symbol').html(getRandomSymbol());
-		fadeInSymbol();
-	});
-}
 
 setTimeout(function () {
 	fadeOutSymbol();
