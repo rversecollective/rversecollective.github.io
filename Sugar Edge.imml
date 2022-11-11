@@ -3,11 +3,7 @@ $title: Sugar Edge
 $theme: dark
 
 [home]
-    <div id="nav">
-        <a href="#">1_home</a>
-        <a href="#who">2_who?</a>
-        <a href="#projects">3_projects</a>
-    </div>
+    <div class="nav"></div>
     <h1>Sugar<span id="symbol">_</span>Edge</h1>
 
     We can't simply adapt the stories of the real world  into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
@@ -21,11 +17,7 @@ $theme: dark
     <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     
     [[who(Who are we?)]]
-        <div id="nav">
-            <a href="#">1_home</a>
-            <a href="#who">2_who?</a>
-            <a href="#projects">3_projects</a>
-        </div>
+        <div class="nav"></div>
         <h1>Who?</h1>
         Sugar Edge collective is co-run by three beating hearts.
 
@@ -59,11 +51,7 @@ $theme: dark
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
 
     [[projects(Projects)]]
-        <div id="nav">
-            <a href="#">1_home</a>
-            <a href="#who">2_who?</a>
-            <a href="#projects">3_projects</a>
-        </div>
+        <div class="nav"></div>
         <h1>Projects</h1>
 
         Recycling is for plastics, not experiences.
@@ -75,9 +63,15 @@ $theme: dark
             <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the virtual and physical world.</p>
         </div>
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+
+    [[deep(Deep)]]
+        <div class="nav"></div>
+        <span class="glow"></span>
+        <span class="glow"></span>
+        <span class="glow"></span>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="https://sugaredge.github.io/js/script.js"></script>
-    <link rel=stylesheet href="https://sugaredge.github.io/css/style.css" type="text/css" />
+    <script src="js/script.js"></script>
+    <link rel=stylesheet href="css/style.css" type="text/css" />
 $style:
     <style>
     </style>

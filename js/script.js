@@ -1,3 +1,14 @@
+var nav = [
+	['home', '#'],
+	['who?', '#who'],
+	['projects', '#projects'],
+	['deep', '#deep'],
+];
+
+for (var i = 0; i < nav.length; i++) {
+	$('.nav').append('<a href="' + nav[i][1] + '">' + (i + 1) + '_' + nav[i][0] + '</a>');
+}
+
 function randomInteger(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -9,7 +20,8 @@ function getRandomCoordinates() {
 async function ease() {
 	$('.glow').each(function () {
 		var size = randomInteger(3, 8).toString() + 'px';
-		$(this).animate({ opacity: '0.' + randomInteger(0, 9).toString(), width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(5000, 10000));
+		var opacity = '0.' + randomInteger(2, 9).toString();
+		$(this).animate({ opacity: opacity, width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(3000, 10000));
 	});
 	setTimeout(function () {
 		ease();
@@ -17,12 +29,10 @@ async function ease() {
 }
 
 $('.glow').each(function () {
-	$(this).css({ width: '5px', height: '5px', left: '0px', top: '0px'});
+	$(this).css({ width: '5px', height: '5px', left: '-100px', top: '-100px'});
 });
 
-setTimeout(function () {
-	ease();
-}, 1000);
+ease();
 
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];

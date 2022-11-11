@@ -21,10 +21,10 @@ a:hover {
     border-bottom: 4px solid #fff !important;
     padding-bottom: 5px;
 }
-#nav {
+.nav {
     padding: 0px !important;
 }
-#nav a {
+.nav a {
     margin-right: 20px;
     font-size: 17px;
 }
