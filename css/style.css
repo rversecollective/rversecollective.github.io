@@ -117,3 +117,15 @@ a.button:hover {
 	z-index: -1000;
 	opacity: 0.6;
 }
+
+span.glow::after {
+	content: attr(name);
+	color: #fff;
+	position: fixed;
+	display: block;
+	width: 60px;
+	text-align: center;
+	font-size: 12px;
+	margin-left: -27px;
+	margin-top: -60px;
+}

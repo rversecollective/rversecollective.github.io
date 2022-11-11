@@ -19,9 +19,9 @@ function getRandomCoordinates() {
 
 async function ease() {
 	$('.glow').each(function () {
-		var size = randomInteger(3, 8).toString() + 'px';
-		var opacity = '0.' + randomInteger(2, 9).toString();
-		$(this).animate({ opacity: opacity, width: size, height: size, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(3000, 10000));
+		//var size = randomInteger(3, 30).toString() + 'px';
+		var opacity = '0.' + randomInteger(3, 9).toString();
+		$(this).animate({ opacity: opacity, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, randomInteger(3000, 10000));
 	});
 	setTimeout(function () {
 		ease();
@@ -29,7 +29,7 @@ async function ease() {
 }
 
 $('.glow').each(function () {
-	$(this).css({ width: '5px', height: '5px', left: '-100px', top: '-100px'});
+	$(this).css({ left: '-100px', top: '-100px'});
 });
 
 ease();
