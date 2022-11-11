@@ -1,6 +1,6 @@
-$('body').append('<span id="box"></span>');
+/*$('body').append('<span id="box"></span>');
 $('#box').css('left', '500px');
-$('#box').css('top', '500px');
+$('#box').css('top', '500px');*/
 
 function randomInteger(min, max) {
 	return Math.floor(Math.random() * (max - min + 1)) + min;

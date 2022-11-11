@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-@font-face {
-    font-family: 'GT Pressura Mono';
-    src: url("../fonts/GTPressuraMono.woff2");
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 html {
     overflow-y: overlay;
 	    overflow-x: hidden;
@@ -10,7 +6,7 @@ html {
 body {
     background: #000 !important;
     color: #fff !important;
-    font-family: 'GT Pressura Mono' !important;
+    font-family: 'Space Mono' !important;
 }
 a {
     color: #fff !important;
