@@ -16,15 +16,17 @@ function randomDecimal(min, max) {
 	return (Math.random() * (max - min) + min).toFixed(1);
 }
 
-function getRandomCoordinates() {
-	return [randomInteger(100, $('body').width() - 100), randomInteger(100, $('body').height() - 100)];
+function getRandomCoordinates(margin) {
+	if (!margin) margin = 0;
+	return [randomInteger(margin, $('body').width() - margin), randomInteger(margin, $('body').height() - margin)];
 }
 
 async function ease() {
 	$('.glow').each(function () {
+		var coordinates = getRandomCoordinates(100);
 		var opacity = randomInteger(0.3, 1);
 		var speed = randomInteger(1000, 10000);
-		$(this).animate({ opacity: opacity, left: getRandomCoordinates()[0], top: getRandomCoordinates()[1] }, speed);
+		$(this).animate({ opacity: opacity, left: coordinates[0], top: coordinates[1] }, speed);
 	});
 	setTimeout(function () {
 		ease();

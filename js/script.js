@@ -21,21 +21,27 @@ $('.nav a').on('click', function () {
 
 /* glowing orbs */
 
-$('.glow').each(function () {
-	$(this).css({ left: '-100px', top: '-100px'});
+var amountStars = ($('body').width() / 10).toFixed();
+
+$(document).ready(function() {
+	for (var i = 0; i < amountStars; i++) {
+		var star = $('<span class="star">');
+		star.css({ left: getRandomCoordinates(0)[0], top: randomInteger(0, $(document).height()) });
+		$('#glow-arena').append(star);
+	}
+	$('.glow, .star').hide();
 });
 
 ease();
 
-$('#glow-arena .glow').hide();
 
 setInterval(function () {
 	if ($('#glow-arena').isInViewport() && $('#glow-arena:visible').length && !$('#keep-scrolling').isInViewport()) {
-		$('#glow-arena .glow').fadeIn({ queue: false, duration: 'slow' });
+		$('.glow, .star').fadeIn({ queue: false, duration: 'slow' });
 	} else {
-		$('#glow-arena .glow').fadeOut({ queue: false, duration: 'slow' });
+		$('.glow, .star').fadeOut({ queue: false, duration: 'slow' });
 	}
-}, 2000);
+}, 1000);
 
 /* change symbol in header */
 

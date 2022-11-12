@@ -101,6 +101,8 @@ a:hover {
 		width: 5px;
 		height: 5px;
 		position: fixed;
+		left: 100px;
+		top: 100px;
 		background: #fff;
 		box-shadow:
 	    0 0 30px 5px #fff,
@@ -120,6 +122,15 @@ a:hover {
 		font-size: 11px;
 		margin-left: -27px;
 		margin-top: -60px;
+}
+.star {
+		width: 2px;
+		height: 2px;
+		position: absolute;
+		background: #fff;
+		border-radius: 100px;
+		z-index: -1000;
+		opacity: 0.6 !important;
 }
 
 /* Projects elements */
