@@ -69,6 +69,7 @@ $theme: dark
         </div>
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/script.js"></script>
     <link rel=stylesheet href="css/style.css" type="text/css" />
 $style:
