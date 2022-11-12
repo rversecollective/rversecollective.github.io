@@ -53,6 +53,7 @@ $theme: dark
             <span class="glow" name="Tua"></span>
             <span class="glow" name="Dagmar"></span>
             <span class="glow" name="Tomo"></span>
+            <span class="glow" name="You"></span>
         </div>
 
     [[projects(Projects)]]
