@@ -24,9 +24,9 @@ function getRandomCoordinates(margin) {
 async function ease() {
 	$('.glow').each(function () {
 		var coordinates = getRandomCoordinates(100);
-		var opacity = randomInteger(0.3, 1);
+		var opacity = randomDecimal(0.5, 1);
 		var speed = randomInteger(1000, 10000);
-		$(this).animate({ opacity: opacity, left: coordinates[0], top: coordinates[1] }, speed);
+		$(this).animate({ zoom: opacity, opacity: opacity, left: coordinates[0], top: coordinates[1] }, speed);
 	});
 	setTimeout(function () {
 		ease();
