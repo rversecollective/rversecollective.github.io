@@ -1,4 +1,4 @@
-//nav
+/* Navigation */
 
 var nav = [
 	['home', '#'],
@@ -18,7 +18,8 @@ $('.nav a').on('click', function () {
 	$('.nav a[href="' + $(this).attr('href') + '"]').attr('class', 'active');
 	// selecting every nav element since there's more than one
 });
-// glowing orbs
+
+/* glowing orbs */
 
 $('.glow').each(function () {
 	$(this).css({ left: '-100px', top: '-100px'});
@@ -36,37 +37,11 @@ setInterval(function () {
 	}
 }, 2000);
 
-// change symbol in header
+/* change symbol in header */
+
 var speed = 900;
 var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'];
 
 setTimeout(function () {
 	fadeOutSymbol();
 }, 500);
-
-// button hover
-/*
-var originalText = $('a.button').html();
-var secondText = originalText;
-var alt = '_';
-
-$('a.button').on('mouseover', function () {
-    buttonChange = setInterval(function() {
-        var index = secondText.indexOf(alt);
-        if (index == -1) {
-            secondText = secondText.replaceAt(0, alt);
-        } else if (index == originalText.length - 1) {
-            secondText = originalText;
-        } else {
-            secondText = originalText.replaceAt(index + 1, alt);
-        }
-        $('a.button').html(secondText);
-    }, 120);
-});
-
-$('a.button').on('mouseout', function () {
-    clearInterval(buttonChange);
-    $('a.button').html(originalText);
-    secondText = originalText;
-});
-*/
