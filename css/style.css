@@ -44,7 +44,9 @@ a.button:hover {
 a:hover {
 		color: #6D48FF !important;
 }
-
+.active {
+		color: #6D48FF !important;
+}
 /* Navigation elements */
 
 .nav {

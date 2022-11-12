@@ -7,9 +7,17 @@ var nav = [
 ];
 
 for (var i = 0; i < nav.length; i++) {
+	var currentPage = (window.location.href.split('#')[1] == undefined) ? '#' : '#' + window.location.href.split('#')[1];
+
 	$('.nav').append('<a href="' + nav[i][1] + '">' + (i + 1) + '_' + nav[i][0] + '</a>');
+	$('.nav a[href="' + currentPage + '"]').attr('class', 'active');
 }
 
+$('.nav a').on('click', function () {
+	$('.nav a').removeAttr('class');
+	$('.nav a[href="' + $(this).attr('href') + '"]').attr('class', 'active');
+	// selecting every nav element since there's more than one
+});
 // glowing orbs
 
 $('.glow').each(function () {
