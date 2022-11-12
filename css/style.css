@@ -130,7 +130,7 @@ a:hover {
 		background: #fff;
 		border-radius: 100px;
 		z-index: -1000;
-		opacity: 0.6 !important;
+		opacity: 0.5 !important;
 }
 
 /* Projects elements */

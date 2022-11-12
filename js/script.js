@@ -34,7 +34,6 @@ $(document).ready(function() {
 
 ease();
 
-
 setInterval(function () {
 	if ($('#glow-arena').isInViewport() && $('#glow-arena:visible').length && !$('#keep-scrolling').isInViewport()) {
 		$('.glow, .star').fadeIn({ queue: false, duration: 'slow' });
@@ -42,6 +41,7 @@ setInterval(function () {
 		$('.glow, .star').fadeOut({ queue: false, duration: 'slow' });
 	}
 }, 1000);
+
 
 /* change symbol in header */
 
