@@ -41,8 +41,7 @@ String.prototype.replaceAt = function(index, replacement) {
 
 function getRandomSymbol() {
 	var symbol = symbols.random();
-	var newSymbol = (symbol == $('#symbol').html()) ? getRandomSymbol() : symbol;
-	return newSymbol;
+	return (symbol == $('#symbol').html()) ? getRandomSymbol() : symbol;
 }
 
 async function fadeInSymbol() {

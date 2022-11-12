@@ -1,37 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap');
+
+/* General elements */
+
 html {
     overflow-y: overlay;
-	    overflow-x: hidden;
+    overflow-x: hidden;
 }
 body {
     background: #000 !important;
     color: #fff !important;
     font-family: 'JetBrains Mono' !important;
 }
-h1, h2, h3, a.button {
-	font-family: 'Spline Sans Mono' !important;
+h1, h2, h3, h4 {
+		font-family: 'Spline Sans Mono' !important;
 }
 a {
     color: #fff !important;
     text-decoration: none !important;
     border-bottom: 0 !important;
-}
-a:hover {
-    border-bottom: 4px solid #fff !important;
-    padding-bottom: 5px;
-}
-.nav {
-    padding: 0px !important;
-}
-.nav a {
-    margin-right: 20px;
-    font-size: 17px;
-}
-#video-dagmar {
-    margin: 100px auto !important;
-    display: block;
-    width: 50%;
 }
 h1 {
     font-size: 45px;
@@ -46,22 +33,32 @@ h3 {
 p {
     line-height: 28px;
 }
-a.button {
-		background: #fff;
-		padding: 15px 40px !important;
-		color: #000 !important;
-		margin: 100px auto;
-		display: block;
-		text-align: center;
-		text-decoration: none !important;
-		border-bottom: 0 !important;
-		font-size: 16px;
-}
+
+/* Secondary colour elements */
+
 a.button:hover {
-    background: #c7ecee;
+    background: #6D48FF !important;
+		color: #fff !important;
 }
+
+a:hover {
+		color: #6D48FF !important;
+}
+
+/* Navigation elements */
+
+.nav {
+    padding: 0 !important;
+}
+.nav a {
+		margin-right: 20px;
+		font-size: 17px;
+}
+
+/* Team elements */
+
 #team {
-	margin-top: 80px;
+		margin-top: 80px;
 }
 #team img {
     max-width: 130px;
@@ -88,52 +85,77 @@ a.button:hover {
     display: block !important;
     margin-top: 10px;
 }
+
+/* Glow elements */
+
+#glow-arena {
+		background: transparent;
+		display: block;
+		height: 2000px;
+		width: 100px;
+		margin-top: 100px;
+}
+.glow {
+		width: 5px;
+		height: 5px;
+		position: fixed;
+		background: #fff;
+		box-shadow:
+	    0 0 30px 5px #fff,
+	    0 0 50px 20px #f0f,
+	    0 0 70px 15px #0ff;
+		border-radius: 100px;
+		z-index: -1000;
+		opacity: 0.6;
+}
+.glow::after {
+		content: attr(name);
+		color: #fff;
+		position: fixed;
+		display: block;
+		width: 60px;
+		text-align: center;
+		font-size: 11px;
+		margin-left: -27px;
+		margin-top: -60px;
+}
+
+/* Projects elements */
+
 #projects-list {
-	margin-top: 50px;
+		margin-top: 50px;
 }
 #projects-list, #team {
-	margin-bottom: 100px;
+		margin-bottom: 100px;
 }
 #projects-list p {
     margin-bottom: 30px;
 }
+
+
+/* Other elements */
+
+#video-dagmar {
+    margin: 100px auto !important;
+    display: block;
+    width: 50%;
+}
+a.button {
+		background: #fff;
+		padding: 15px 40px !important;
+		color: #000 !important;
+		margin: 100px auto;
+		display: block;
+		text-align: center;
+		text-decoration: none !important;
+		border-bottom: 0 !important;
+		font-size: 16px;
+}
 #symbol {
     color: #333;
+		margin: 0 1px;
+    font-family: 'JetBrains Mono' !important;
 }
 .breadcrumbs {
     display: none;
-}
-
-.glow {
-	width: 5px;
-	height: 5px;
-	position: fixed;
-	background: #fff;
-	box-shadow:
-    0 0 30px 5px #fff,  /* inner white */
-    0 0 50px 20px #f0f, /* middle magenta */
-    0 0 70px 15px #0ff;
-	border-radius: 100px;
-	z-index: -1000;
-	opacity: 0.6;
-}
-
-.glow::after {
-	content: attr(name);
-	color: #fff;
-	position: fixed;
-	display: block;
-	width: 60px;
-	text-align: center;
-	font-size: 11px;
-	margin-left: -27px;
-	margin-top: -60px;
-}
-
-#glow-arena {
-background: transparent;
-display: block;
-height: 2000px;
-width: 100px;
-margin-top: 100px;
 }

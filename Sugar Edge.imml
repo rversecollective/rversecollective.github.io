@@ -10,7 +10,7 @@ $theme: dark
 
     What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.
 
-    <img src="https://sugaredge.github.io/img/dagmar.gif" id="video-dagmar" />
+    <img src="https://sugaredgecollective.com/img/dagmar.gif" id="video-dagmar" />
 
     Virtual experiences need a human component, because ideas worth exploring feel like you're holding a living heart in your hands.
 
@@ -24,7 +24,7 @@ $theme: dark
         Follow us: <a target="_blank" href="https://www.instagram.com/sugar.edge.collective">@sugar.edge.collective</a>
         <div id="team">
             <div class="team-member">
-                <img src="https://sugaredge.github.io/img/dagmar.jpg" />
+                <img src="https://sugaredgecollective.com/img/dagmar.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Dagmar Irrig</span>
                     <a target="_blank" href="https://www.instagram.com/dagmarirrig/">@dagmarirrig</a>
@@ -32,14 +32,14 @@ $theme: dark
                 </div>
             </div>
             <div class="team-member">
-                <img src="https://sugaredge.github.io/img/tua.jpg" />
+                <img src="https://sugaredgecollective.com/img/tua.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tua Asplund</span>
                     <span class="team-member-title">Business leader, creative thinker & technologist</span>
                 </div>
             </div>
             <div class="team-member">
-                <img src="https://sugaredge.github.io/img/tomo.jpg" />
+                <img src="https://sugaredgecollective.com/img/tomo.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tomo Myrman</span>
                     <a target="_blank" href="https://www.instagram.com/neontomo">@neontomo</a>
@@ -48,7 +48,6 @@ $theme: dark
             </div>
         </div>
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <span id="keep-scrolling">Keep scrolling.</span>
         <div id="glow-arena">
             <span class="glow" name="Tua"></span>

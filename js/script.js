@@ -37,7 +37,7 @@ setTimeout(function () {
 }, 500);
 
 // button hover
-
+/*
 var originalText = $('a.button').html();
 var secondText = originalText;
 var alt = '_';
@@ -61,3 +61,4 @@ $('a.button').on('mouseout', function () {
     $('a.button').html(originalText);
     secondText = originalText;
 });
+*/
