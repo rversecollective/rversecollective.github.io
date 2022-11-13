@@ -51,3 +51,16 @@ var symbols = ['/', '_', '&', '!', '=', ';', '+', '>', '-', '#', ':', '×', '÷'
 setTimeout(function () {
 	fadeOutSymbol();
 }, 500);
+
+$(document).ready(function() {
+	$('[random="true"]').each(function () {
+		var type = $(this).prop('nodeName');
+		if (type == 'SCRIPT') {
+			var src = $(this).attr('src') + '?v=' + getRandomID();
+			$(this).attr('src', src);
+		} else if (type == 'LINK') {
+			var href = $(this).attr('href') + '?v=' + getRandomID();
+			$(this).attr('href', href);
+		}
+	});
+});
