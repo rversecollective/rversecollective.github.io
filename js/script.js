@@ -52,6 +52,7 @@ setTimeout(function () {
 	fadeOutSymbol();
 }, 500);
 
+/*
 $(document).ready(function() {
 	$('[random="true"]').each(function () {
 		var type = $(this).prop('nodeName');
@@ -63,4 +64,4 @@ $(document).ready(function() {
 			$(this).attr('href', href);
 		}
 	});
-});
+});*/
