@@ -148,10 +148,9 @@ a:hover {
 
 /* Other elements */
 
-#video-dagmar {
-    margin: 100px auto !important;
+video {
+    margin: 50px auto !important;
     display: block;
-    width: 50%;
 }
 a.button {
 		background: #fff;
