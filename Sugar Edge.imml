@@ -10,7 +10,10 @@ $theme: dark
 
     What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.
 
-    <img src="https://sugaredgecollective.com/img/dagmar.gif" id="video-dagmar" />
+    <video width="100%" muted autoplay>
+        <source src="https://sugaredgecollective.com/video/01_rock.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
     Virtual experiences need a human component, because ideas worth exploring feel like you're holding a living heart in your hands.
 
@@ -72,7 +75,10 @@ $theme: dark
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script random=true src="js/functions.js"></script>
     <script random=true src="js/script.js"></script>
-    <link random=true rel=stylesheet href="css/style.css" type="text/css" />
+    <link random=true rel=stylesheet href="https://sugaredgecollective.com/css/style.css" type="text/css" />
 $style:
     <style>
+    video {
+        margin: 50px 0;
+    }
     </style>
