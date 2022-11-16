@@ -78,7 +78,4 @@ $theme: dark
     <link random=true rel=stylesheet href="https://sugaredgecollective.com/css/style.css" type="text/css" />
 $style:
     <style>
-    video {
-        margin: 50px 0;
-    }
     </style>
