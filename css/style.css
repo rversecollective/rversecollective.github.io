@@ -14,6 +14,7 @@ body {
 }
 h1, h2, h3, h4 {
 		font-family: 'Spline Sans Mono' !important;
+		word-break: break-all;
 }
 a {
     color: #fff !important;
@@ -23,7 +24,6 @@ a {
 h1 {
     font-size: 55px;
 		text-transform: uppercase;
-		word-break: break-all;
 }
 
 h2 {
