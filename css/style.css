@@ -21,8 +21,16 @@ a {
     border-bottom: 0 !important;
 }
 h1 {
-    font-size: 45px;
+    font-size: 55px;
+		text-transform: uppercase;
 }
+#logo {
+		padding-left: 100px;
+		background: url('../img/white_logo.png');
+		background-size: 70px;
+		background-repeat: no-repeat;
+}
+
 h2 {
     font-size: 30px;
 }

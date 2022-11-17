@@ -4,9 +4,9 @@ $theme: dark
 
 [home]
     <div class="nav"></div>
-    <h1>Sugar<span id="symbol">_</span>Edge</h1>
+    <h1 id="logo">Sugar<span id="symbol">_</span>Edge</h1>
 
-    We can't simply adapt the stories of the real world  into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
+    We can't simply adapt the stories of the real world into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
 
     What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.
 
@@ -75,7 +75,7 @@ $theme: dark
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script random=true src="js/functions.js"></script>
     <script random=true src="js/script.js"></script>
-    <link random=true rel=stylesheet href="https://sugaredgecollective.com/css/style.css" type="text/css" />
+    <link random=true rel=stylesheet href="css/style.css" type="text/css" />
 $style:
     <style>
     </style>
