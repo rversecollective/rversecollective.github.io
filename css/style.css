@@ -24,9 +24,6 @@ h1 {
     font-size: 55px;
 		text-transform: uppercase;
 }
-#logo {
-font-size : clamp(35px, 8vw, 55px);
-}
 
 h2 {
     font-size: 30px;
