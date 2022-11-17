@@ -6,9 +6,9 @@ $theme: dark
     <div class="nav"></div>
     <h1 id="logo">Sugar<span id="symbol">_</span>Edge</h1>
 
-    We can't simply adapt the stories of the real world into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
+    <p>We can't simply adapt the stories of the real world into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
 
-    What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.
+    What happens when you put new technologies in the hands of artists, designers, architects and poets? That's our curiosity.</p>
 
     <video width="100%" muted autoplay loop>
         <source src="https://sugaredgecollective.com/video/01_rock.mp4" type="video/mp4">
@@ -22,8 +22,8 @@ $theme: dark
     [[who(Who are we?)]]
         <div class="nav"></div>
         <h1>Who?</h1>
-        
-        Sugar Edge collective is co-run by three beating hearts.
+
+        <p>Sugar Edge collective is co-run by three beating hearts.</p>
 
         Follow us: <a target="_blank" href="https://www.instagram.com/sugar.edge.collective">@sugar.edge.collective</a>
         <div id="team">
@@ -64,7 +64,7 @@ $theme: dark
         <div class="nav"></div>
         <h1>Projects</h1>
 
-        Recycling is for plastics, not experiences.
+        <p>Recycling is for plastics, not experiences.</p>
 
         <div id="projects-list">
             <h3>2022_UN Women</h3>
@@ -76,7 +76,7 @@ $theme: dark
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script random=true src="js/functions.js"></script>
     <script random=true src="js/script.js"></script>
-    <link random=true rel=stylesheet href="css/style.css" type="text/css" />
+    <link random=true rel=stylesheet href="https://sugaredgecollective.com/css/style.css" type="text/css" />
 $style:
     <style>
     </style>
