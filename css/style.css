@@ -23,6 +23,7 @@ a {
 h1 {
     font-size: 55px;
 		text-transform: uppercase;
+		word-break: break-all;
 }
 
 h2 {
