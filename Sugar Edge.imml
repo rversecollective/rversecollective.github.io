@@ -67,16 +67,20 @@ $theme: dark
         <p>Recycling is for plastics, not experiences.</p>
 
         <div id="projects-list">
-            <h3>2022_UN Women</h3>
-            <p>We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
-            <h3>2022_Min Stora Sorg</h3>
-            <p>A prominent Swedish artist worked with us to develop novel concert experiences, by merging the virtual and physical world.</p>
+            <div class="project">
+                <strong class="project_name">2022_UN Women</strong>
+                <p class="project_description">We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
+            </div>
+            <div class="project">
+                <strong class="project_name">2022_Min Stora Sorg</strong>
+                <p class="project_description">A prominent Swedish artist worked with us to develop novel concert experiences, by merging the virtual and physical world.</p>
+            </div>
         </div>
         <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script random=true src="js/functions.js"></script>
     <script random=true src="js/script.js"></script>
-    <link random=true rel=stylesheet href="https://sugaredgecollective.com/css/style.css" type="text/css" />
+    <link random=true rel=stylesheet href="css/style.css" type="text/css" />
 $style:
     <style>
     </style>

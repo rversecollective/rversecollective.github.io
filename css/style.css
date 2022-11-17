@@ -143,14 +143,16 @@ a:hover {
 
 /* Projects elements */
 
-#projects-list {
-		margin-top: 50px;
+.project {
+	margin-bottom: 18px;
+	line-height: 28px;
 }
-#projects-list, #team {
-		margin-bottom: 100px;
+.project_name {
+	line-height: 28px;
+	text-transform: uppercase;
 }
-#projects-list p {
-    margin-bottom: 30px;
+.project_description {
+	margin: 0;
 }
 
 
