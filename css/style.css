@@ -25,10 +25,7 @@ h1 {
 		text-transform: uppercase;
 }
 #logo {
-		padding-left: 100px;
-		background: url('../img/white_logo.png');
-		background-size: 70px;
-		background-repeat: no-repeat;
+font-size : clamp(35px, 8vw, 55px);
 }
 
 h2 {
