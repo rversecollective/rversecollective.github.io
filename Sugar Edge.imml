@@ -69,7 +69,7 @@ $theme: dark
         <div id="projects-list">
             <div class="project">
                 <strong class="project_name">2022_UN Women</strong>
-                <p class="project_description">We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world. <a target="_blank" href="https://www.instagram.com/ar/3009274792699241/">Check out the filter.</a></p>
+                <p class="project_description">We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world. Check out the filter <a target="_blank" href="https://www.instagram.com/ar/3009274792699241/">here.</a></p>
             </div>
             <div class="project">
                 <strong class="project_name">2022_Min Stora Sorg</strong>
