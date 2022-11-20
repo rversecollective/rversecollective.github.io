@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 		word-break: break-all;
 }
 a {
-    color: #fff !important;
+    color: #777 !important;
     text-decoration: none !important;
     border-bottom: 0 !important;
 }
