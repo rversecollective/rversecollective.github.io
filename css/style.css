@@ -66,20 +66,19 @@ a:hover {
 		margin-top: 80px;
 }
 #team img {
-    max-width: 130px;
     border-radius: 100px;
     margin-right: 20px;
+    display: inline-block !important;
+    vertical-align: top;
+	width: 25% !important;
 }
 .team-member {
     margin-bottom: 50px !important;
 }
-.team-member img {
-    display: inline-block !important;
-    vertical-align: top;
-}
 .team-member-desc {
+	width: 60% !important;
     display: inline-block !important;
-    width: 200px;
+    width: 180px;
     vertical-align: top;
     margin-top: 10px;
 }
