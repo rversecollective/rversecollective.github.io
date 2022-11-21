@@ -81,6 +81,7 @@ a:hover {
     width: 180px;
     vertical-align: top;
     margin-top: 10px;
+	line-height: 25px;
 }
 .team-member-name {
     display: block !important;
