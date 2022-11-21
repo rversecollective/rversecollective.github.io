@@ -39,7 +39,7 @@ $theme: dark
                 <img src="https://sugaredgecollective.com/img/tua.jpg" />
                 <div class="team-member-desc">
                     <span class="team-member-name">Tua Asplund</span>
-                    <span class="team-member-title">Business leader, creative thinker & technologist</span>
+                    <span class="team-member-title">Business strategist, creative thinker & technologist</span>
                 </div>
             </div>
             <div class="team-member">
@@ -47,7 +47,7 @@ $theme: dark
                 <div class="team-member-desc">
                     <span class="team-member-name">Tomo Myrman</span>
                     <a target="_blank" href="https://www.instagram.com/neontomo">@neontomo</a>
-                    <span class="team-member-title">Artist, author & provocateur</span>
+                    <span class="team-member-title">Artist, programmer & provocateur</span>
                 </div>
             </div>
         </div>
