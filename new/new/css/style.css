@@ -1,0 +1,175 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,400;0,700;1,400;1,700&display=block');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=block');
+
+/* General elements */
+
+html {
+    overflow-x: hidden;
+}
+body {
+	background: #000 !important;
+	color: #fff !important;
+    font-family: 'JetBrains Mono' !important;
+	margin-bottom: 400px;
+}
+h1, h2, h3, h4, input {
+		font-family: 'Spline Sans Mono' !important;
+		word-break: break-all;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 30px;
+}
+a:hover {
+	padding-bottom: 4px;
+}
+
+/* NAV */
+#nav {
+	padding: 40px 60px 0 60px;
+}
+#header {
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 40px;
+}
+#header h1 {
+	margin: 0;
+}
+#header h1 a:hover:before, #header h1 a:hover:after {
+	display: none;
+
+}
+#header, #nav-links {
+	border: 0px solid red;
+}
+#nav-links {
+	padding-top: 5px;
+	display: inline-block;
+	text-align: right;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: top;
+	float: right;
+}
+#nav-links a {
+	margin-left: 30px;
+}
+a {
+	position: relative;
+}
+a:hover:before {
+	position: absolute;
+	content: "";
+	left: -6px;
+	top: 28px;
+	right: 0;
+	border-top: 3px solid #fff;
+	transform:rotate(-8deg);
+}
+a:hover:after {
+	position: absolute;
+	content: "";
+	left: -12px;
+	top: 30px;
+	right: 0;
+	border-top: 3px solid #fff;
+	border-color: inherit;
+	transform:rotate(14deg);
+}
+
+/* ROCK */
+div.rock {
+	width: 80%;
+	margin: 0 auto;
+}
+div.rock video {
+	width: 100%;
+}
+
+/* MAIN INFO */
+#main {
+	padding: 0 60px;
+	display: block;
+}
+#main-info {
+	margin-top: 100px;
+}
+#main-info-description {
+	width: 46%;
+	float: right;
+	vertical-align: top;
+	margin-top: 0;
+	display: inline-block;
+}
+
+/* PROJECTS */
+#main-selected-projects {
+	margin-top: 250px;
+	text-transform: lowercase;
+}
+#main-selected-projects h2 {
+	margin: 0 60px;
+}
+#main-project-primary {
+	border: 3px solid #fff;
+	width: calc(100vw - 6);
+	height: 45vw;
+	display: block;
+	margin-top: 20px;
+}
+#main-project-secondary {
+	margin: 150px 60px 40px 60px;
+}
+#main-project-tertiary {
+	float: right;
+	margin: 40px 60px 150px 60px;
+}
+#main-project-secondary, #main-project-tertiary {
+	width: 550px;
+	height: 340px;
+}
+#main-project-secondary-box, #main-project-tertiary-box {
+	border: 3px solid #fff;
+	height: 100%;
+}
+#main-project-secondary-title, #main-project-tertiary-title {
+	margin-top: 20px;
+	display: block;
+	font-weight: bold;
+}
+
+/* FOOTER */
+
+#footer {
+	padding: 0 60px;
+	margin-left: 0;
+	margin-top: 600px;
+	display: block;
+	text-transform: lowercase;
+}
+#footer a {
+	margin: 0;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+/* GO TO TOP */
+
+#go-to-top {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	bottom: 40px;
+	right: 60px;
+	background: url('../img/top-of-page.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
