@@ -59,28 +59,27 @@ a:hover {
 	float: right;
 }
 #nav-links a {
-	margin-left: 30px;
 	position: relative;
+padding: 0 10px 30px 30px;
 }
-
-#nav-links a:hover:before {
-	position: absolute;
-	content: "";
-	left: -6px;
-	top: 28px;
-	right: 0;
-	border-top: 3px solid #fff;
-	transform:rotate(-8deg);
+#nav a:nth-child(3) {
+padding: 0 0px 30px 30px;
 }
-#nav-links a:hover:after {
-	position: absolute;
-	content: "";
-	left: -12px;
-	top: 30px;
-	right: 0;
-	border-top: 3px solid #fff;
-	border-color: inherit;
-	transform:rotate(14deg);
+#nav a:hover {
+	background-repeat: no-repeat;
+	background-size: 65%;
+}
+#nav a:nth-child(1):hover {
+background-image: url(../img/nav-1.png);
+background-position: 30px 20px;
+}
+#nav a:nth-child(2):hover {
+background-image: url(../img/nav-2.png);
+background-position: 25px 20px;
+}
+#nav a:nth-child(3):hover {
+background-image: url(../img/nav-3.png);
+background-position: 25px 20px;
 }
 
 /* ROCK */
