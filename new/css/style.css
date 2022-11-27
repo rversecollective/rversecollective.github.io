@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap');
+
+/* General elements */
+
+html {
+    overflow-x: hidden;
+}
+body {
+	background: #000 !important;
+	color: #fff !important;
+    font-family: 'JetBrains Mono' !important;
+	margin-bottom: 400px;
+}
+h1, h2, h3, h4, input {
+		font-family: 'Spline Sans Mono' !important;
+		word-break: break-all;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 30px;
+}
+a:hover {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 4px;
+}
+
+/* NAV */
+#nav {
+	padding: 40px 60px 0 60px;
+}
+#header {
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 40px;
+}
+#header h1 {
+	margin: 0;
+}
+#header, #nav-links {
+	border: 0px solid red;
+}
+#nav-links {
+	padding-top: 5px;
+	display: inline-block;
+	text-align: right;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: top;
+	float: right;
+}
+#nav-links a {
+	margin-left: 30px;
+}
+
+/* ROCK */
+div.rock {
+	width: 80%;
+	margin: 0 auto;
+}
+div.rock video {
+	width: 100%;
+}
+
+/* MAIN INFO */
+#main {
+	padding: 0 60px;
+	display: block;
+}
+#main-info {
+	margin-top: 100px;
+}
+#main-info-title {
+	float: left;
+	font-weight: bold;
+	display: inline-block;
+	text-transform: lowercase;
+}
+#main-info-description {
+	width: 46%;
+	float: right;
+	vertical-align: top;
+	margin-top: 0;
+	display: inline-block;
+}
+#main-selected-projects {
+	margin-top: 200px;
+	text-transform: lowercase;
+}
+#main-selected-projects h2 {
+	margin: 0 60px;
+}
+#main-project-primary {
+	border: 3px solid #fff;
+	width: calc(100vw - 6);
+	height: 45vw;
+	display: block;
+	margin-top: 20px;
+}
+#main-project-secondary {
+	margin: 150px 60px 40px 60px;
+}
+#main-project-tertiary {
+	float: right;
+	margin: 0 60px 150px 60px;
+}
+
+#main-project-secondary, #main-project-tertiary {
+	width: 400px;
+	height: 240px;
+}
+#main-project-secondary-box, #main-project-tertiary-box {
+	border: 3px solid #fff;
+	height: 100%;
+}
+#main-project-secondary-title, #main-project-tertiary-title {
+	margin-top: 20px;
+	display: block;
+	font-weight: bold;
+}
+
+/* FOOTER */
+
+#footer {
+	padding: 0 60px;
+	margin-left: 0;
+	margin-top: 450px;
+	display: block;
+	text-transform: lowercase;
+}
+#footer a {
+	margin: 0;
+	margin-right: 30px;
+	font-weight: bold;
+}
