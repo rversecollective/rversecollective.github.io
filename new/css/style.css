@@ -23,6 +23,10 @@ a {
 	text-decoration: none;
 }
 a:hover {
+	border-bottom: 2px solid #fff;
+}
+#nav a:hover {
+	border: 0;
 }
 
 /* NAV */
@@ -56,10 +60,9 @@ a:hover {
 }
 #nav-links a {
 	margin-left: 30px;
-}
-a {
 	position: relative;
 }
+
 #nav-links a:hover:before {
 	position: absolute;
 	content: "";
@@ -207,6 +210,10 @@ div.rock video {
 	margin-top: 80px;
 	margin-left: 100px;
 	max-width: 50%;
+}
+
+.profile-link {
+	display: inline !important;
 }
 
 .profile:nth-child(2) .profile-info  {
