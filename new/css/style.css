@@ -38,6 +38,10 @@ a:hover {
 #header h1 {
 	margin: 0;
 }
+#header h1 a:hover:before, #header h1 a:hover:after {
+	display: none;
+
+}
 #header, #nav-links {
 	border: 0px solid red;
 }
