@@ -1,3 +1,3 @@
-$('#go-to-top').on('click', function() {
+$('#scroll-top').on('click', function() {
 	$('html, body').animate({ scrollTop: 0 } );
 });

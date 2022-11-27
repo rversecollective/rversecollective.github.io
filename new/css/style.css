@@ -161,14 +161,14 @@ div.rock video {
 
 /* GO TO TOP */
 
-#go-to-top {
+#scroll-top {
 	width: 60px;
 	height: 60px;
 	background: #fff;
 	position: fixed;
 	bottom: 40px;
 	right: 60px;
-	background: url('../img/top-of-page.png');
+	background: url('../img/scroll-top.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	cursor: pointer;
