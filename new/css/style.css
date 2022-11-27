@@ -174,3 +174,12 @@ div.rock video {
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
+
+/* SYMBOL */
+
+#symbol {
+    color: #333;
+	margin: 0 1px;
+	line-height: 28px;
+    font-family: 'JetBrains Mono' !important;
+}
