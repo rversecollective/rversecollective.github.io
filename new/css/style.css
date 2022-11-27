@@ -105,6 +105,7 @@ div.rock video {
 	float: right;
 	vertical-align: top;
 	margin-top: 0;
+	line-height: 25px;
 	display: inline-block;
 }
 
