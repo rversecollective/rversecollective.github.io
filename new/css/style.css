@@ -60,24 +60,24 @@ a:hover {
 }
 #nav-links a {
 	position: relative;
-padding: 0 10px 30px 30px;
+	padding: 0 10px 30px 30px;
 }
-#nav a:nth-child(3) {
+#nav-links a:nth-child(3) {
 padding: 0 0px 30px 30px;
 }
 #nav a:hover {
 	background-repeat: no-repeat;
 	background-size: 65%;
 }
-#nav a:nth-child(1):hover {
+#nav-links a:nth-child(1):hover {
 background-image: url(../img/nav-1.png);
 background-position: 30px 20px;
 }
-#nav a:nth-child(2):hover {
+#nav-links a:nth-child(2):hover {
 background-image: url(../img/nav-2.png);
 background-position: 25px 20px;
 }
-#nav a:nth-child(3):hover {
+#nav-links a:nth-child(3):hover {
 background-image: url(../img/nav-3.png);
 background-position: 25px 20px;
 }
