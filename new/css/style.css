@@ -112,6 +112,7 @@ div.rock video {
 /* PROJECTS */
 #main-selected-projects {
 	margin-top: 250px;
+	margin-bottom: 600px;
 	text-transform: lowercase;
 }
 #main-selected-projects h2 {
@@ -150,7 +151,6 @@ div.rock video {
 #footer {
 	padding: 0 60px;
 	margin-left: 0;
-	margin-top: 600px;
 	display: block;
 	text-transform: lowercase;
 }
