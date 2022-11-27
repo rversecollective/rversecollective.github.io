@@ -22,7 +22,6 @@ a {
 	margin-left: 30px;
 }
 a:hover {
-	border-bottom: 2px solid #fff;
 	padding-bottom: 4px;
 }
 
@@ -54,8 +53,27 @@ a:hover {
 }
 #nav-links a {
 	margin-left: 30px;
+	position: relative;
 }
-
+#nav-links a:hover:before {
+position: absolute;
+content: "";
+left: -6px;
+top: 28px;
+right: 0;
+border-top: 3px solid #fff;
+transform:rotate(-8deg);
+}
+#nav-links a:hover:after {
+position: absolute;
+content: "";
+left: -12px;
+top: 30px;
+right: 0;
+border-top: 3px solid #fff;
+border-color: inherit;
+transform:rotate(14deg);
+}
 /* ROCK */
 div.rock {
 	width: 80%;
@@ -72,12 +90,6 @@ div.rock video {
 }
 #main-info {
 	margin-top: 100px;
-}
-#main-info-title {
-	float: left;
-	font-weight: bold;
-	display: inline-block;
-	text-transform: lowercase;
 }
 #main-info-description {
 	width: 46%;
@@ -105,12 +117,11 @@ div.rock video {
 }
 #main-project-tertiary {
 	float: right;
-	margin: 0 60px 150px 60px;
+	margin: 40px 60px 150px 60px;
 }
-
 #main-project-secondary, #main-project-tertiary {
-	width: 400px;
-	height: 240px;
+	width: 550px;
+	height: 340px;
 }
 #main-project-secondary-box, #main-project-tertiary-box {
 	border: 3px solid #fff;
@@ -127,7 +138,7 @@ div.rock video {
 #footer {
 	padding: 0 60px;
 	margin-left: 0;
-	margin-top: 450px;
+	margin-top: 600px;
 	display: block;
 	text-transform: lowercase;
 }
