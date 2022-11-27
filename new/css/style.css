@@ -42,7 +42,6 @@ a:hover {
 }
 #header h1 a:hover:before, #header h1 a:hover:after {
 	display: none;
-
 }
 #header, #nav-links {
 	border: 0px solid red;
@@ -63,7 +62,7 @@ a:hover {
 a {
 	position: relative;
 }
-a:hover:before {
+#nav-links a:hover:before {
 	position: absolute;
 	content: "";
 	left: -6px;
@@ -72,7 +71,7 @@ a:hover:before {
 	border-top: 3px solid #fff;
 	transform:rotate(-8deg);
 }
-a:hover:after {
+#nav-links a:hover:after {
 	position: absolute;
 	content: "";
 	left: -12px;
