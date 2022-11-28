@@ -43,8 +43,8 @@ $('#hamburger').on('click, mouseover', function () {
 });
 $('body').on('click', function (e) {
 	if (e.target.id == 'hamburger') return;
-	$('#nav-links-expand').hide();
+	$('#nav-links-expand').removeAttr('style');
 });
 $(document).on('scroll', function () {
-	$('#nav-links-expand').hide();
+	$('#nav-links-expand').removeAttr('style');
 });
