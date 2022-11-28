@@ -6,7 +6,7 @@
 /* GENERAL ELEMENTS */
 
 body {
-    font-family: 'JetBrains Mono' !important;
+	font-family: 'JetBrains Mono' !important;
 	background: #000;
 	color: #fff;
 }
@@ -40,14 +40,17 @@ a {
 	text-decoration: none;
 }
 #symbol {
-    color: #333;
-    font-family: 'JetBrains Mono' !important;
+	color: #333;
+	font-family: 'JetBrains Mono' !important;
 }
 #nav-links {
 	float: right;
 	margin: 5px 0 0 0;
 	padding: 0;
 	text-transform: lowercase;
+}
+#hamburger {
+	display: none;
 }
 #nav-links a {
 	margin-left: 40px;
@@ -149,8 +152,8 @@ a {
 #projects-secondary .projects-secondary:nth-child(even) {
 	float: right;
 }
-@media (max-width: 780px) {
-
+@media (max-width: 900px) {
+	
 }
 
 /* FOOTER */
@@ -189,14 +192,14 @@ a {
 	max-width: 60%;
 	height: 100%;
 	margin: 0 auto 100px auto;
-    display: flex;
+	display: flex;
 }
 .staff-avatar {
 	max-width: 250px;
 	height: auto;
 }
 .staff-info {
-    width: 100%;
+	width: 100%;
 	line-height: 25px;
 	padding: 50px 100px 0 100px;
 }
@@ -216,4 +219,31 @@ a {
 }
 #projects.projects-page {
 	margin-top: 150px;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+	#hamburger {
+		display: block;
+		float: right;
+		font-size: 40px;
+		line-height: 0;
+		margin: 5px -3px 0 0;
+	}
+	#nav-links a {
+		display: none;
+	}
+	#nav-links:hover a {
+		display: block;
+		margin-left: 0;
+	}
+	#nav-links-expand {
+		margin-top: 50px;
+	}
+	#nav-links a:hover {
+		background-image: none !important;
+	}
 }
