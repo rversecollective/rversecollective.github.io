@@ -129,13 +129,15 @@ a {
 .projects-title {
 	font-weight: bold;
 	text-transform: lowercase;
+	text-align: left;
+	display: block;
 }
 #projects-secondary {
 	overflow: hidden;
 }
 #projects-secondary .projects-box {
-	width: 640px;
-	height: 360px;
+	max-width: 50vw;
+	display: block;
 }
 #projects-secondary .projects-secondary {
 	margin-bottom: 100px;
@@ -147,16 +149,7 @@ a {
 	float: right;
 }
 @media (max-width: 780px) {
-	#projects-secondary-one, #projects-secondary-two {
-		display: block !important;
-		box-sizing: border-box !important;
-		width: 100% !important;
-		float: none !important
-	}
-	#projects-secondary-one .projects-box, #projects-secondary-two .projects-box {
-		box-sizing: border-box !important;
-		width: 100% !important;
-	}
+
 }
 
 /* FOOTER */
