@@ -79,12 +79,13 @@ background-image: url(../img/nav/nav-3.png);
 
 #main .rock {
 	width: 100%;
-	margin-bottom: 100px;
+	max-height: calc(100vh - 100px);
+	margin: 0 auto 100px auto;
 }
 #main .rock video {
 	width: 100%;
+	max-height: inherit;
 }
-
 /* DUAL INFO */
 
 #main .dual-info {
