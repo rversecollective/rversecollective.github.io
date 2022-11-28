@@ -68,15 +68,15 @@ padding: 0 0px 30px 30px;
 	background-size: 65%;
 }
 #nav-links a:nth-child(1):hover {
-background-image: url(../img/nav-1.png);
+background-image: url(../img/nav/nav-1.png);
 background-position: 30px 20px;
 }
 #nav-links a:nth-child(2):hover {
-background-image: url(../img/nav-2.png);
+background-image: url(../img/nav/nav-2.png);
 background-position: 25px 20px;
 }
 #nav-links a:nth-child(3):hover {
-background-image: url(../img/nav-3.png);
+background-image: url(../img/nav/nav-3.png);
 background-position: 25px 20px;
 }
 
@@ -170,7 +170,7 @@ div.rock video {
 	position: fixed;
 	bottom: 40px;
 	right: 60px;
-	background: url('../img/above-button.png');
+	background: url('../img/nav/above-button.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	cursor: pointer;
