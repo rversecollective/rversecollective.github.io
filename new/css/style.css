@@ -158,9 +158,6 @@ a {
 	float: right;
 	margin-bottom: 40px;
 }
-@media (max-width: 900px) {
-	
-}
 
 /* FOOTER */
 
@@ -213,6 +210,12 @@ a {
 .staff-info > span {
 	display: block;
 }
+#projects.projects-page {
+	margin-top: 150px;
+}
+
+/* MOBILE */
+
 @media (max-width: 900px) {
 	.staff-member {
 		display: block;
@@ -223,14 +226,6 @@ a {
 		line-height: 25px;
 		padding: 0;
 	}
-}
-#projects.projects-page {
-	margin-top: 150px;
-}
-
-/* MOBILE */
-
-@media (max-width: 900px) {
 	#hamburger {
 		display: block;
 		float: right;
