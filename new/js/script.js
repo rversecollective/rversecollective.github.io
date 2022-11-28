@@ -32,3 +32,8 @@ setTimeout(function () {
 $('#above-button').on('click', function() {
 	$('html, body').animate({ scrollTop: 0 } );
 });
+
+$('a').attr('target', function() {
+	if (this.host == location.host) return;
+	else return '_blank';
+});
