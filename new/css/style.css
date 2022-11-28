@@ -255,3 +255,51 @@ div.rock video {
 	line-height: 25px;
 	display: inline-block;
 }
+
+/* CLIENTS */
+
+#clients {
+	padding: 0 60px;
+	display: block;
+}
+#clients-info {
+	margin-top: 300px;
+}
+#clients-info-title {
+	text-transform: lowercase;
+}
+#clients-info-images {
+	width: 46%;
+	float: right;
+	vertical-align: top;
+	margin-top: 0;
+	line-height: 25px;
+	display: inline-block;
+}
+#clients-info-images img {
+	max-width: 150px;
+}
+
+/* CONTACT */
+
+#contact {
+	padding: 0 60px;
+	display: block;
+}
+#contact-info {
+	margin-top: 150px;
+}
+#contact-info-title {
+	text-transform: lowercase;
+}
+#contact-info-images {
+	width: 46%;
+	float: right;
+	vertical-align: top;
+	margin-top: 0;
+	line-height: 25px;
+	display: inline-block;
+}
+#contact-info-images img {
+	max-width: 150px;
+}
