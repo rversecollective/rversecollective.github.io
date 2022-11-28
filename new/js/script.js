@@ -38,14 +38,13 @@ $('a').attr('target', function() {
 	else return '_blank';
 });
 
-$('#hamburger').on('click', function () {
+$('#hamburger').on('click, mouseover', function () {
 	$('#nav-links-expand').show();
-});
-
-$('#hamburgereee').on('mouseout', function () {
-	$('#nav-links-expand').hide();
 });
 $('body').on('click', function (e) {
 	if (e.target.id == 'hamburger') return;
+	$('#nav-links-expand').hide();
+});
+$(document).on('scroll', function () {
 	$('#nav-links-expand').hide();
 });

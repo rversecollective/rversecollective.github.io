@@ -236,9 +236,6 @@ a {
 	#nav-links-expand {
 		display: none;
 	}
-	#nav-links:hover #nav-links-expand {
-		display: bdlock;
-	}
 	#nav-links-expand a {
 		display: block;
 		margin-left: 0;
