@@ -125,11 +125,9 @@ a {
 }
 #projects-primary {
 	width: 100%;
-	min-height: 80vh;
 	margin-bottom: 100px;
 }
 #projects-primary .projects-box {
-	min-height: 80vh;
 }
 .projects-box {
 	border: 3px solid #fff;
@@ -150,11 +148,15 @@ a {
 	max-width: 50vw;
 	display: block;
 }
+.projects-secondary {
+	/* nothing yet */
+}
 #projects-secondary .projects-secondary:nth-child(odd) {
 	float: left;
 }
 #projects-secondary .projects-secondary:nth-child(even) {
 	float: right;
+	margin-bottom: 40px;
 }
 @media (max-width: 900px) {
 	
@@ -259,5 +261,15 @@ a {
 	.dual-info > span {
 		display: block;
 		float: left !important;
+	}
+	.projects-secondary {
+		width: 100% !important;
+		float: left !important;
+		display: block !important;
+		margin-bottom: 40px !important;
+	}
+	#projects-secondary .projects-box {
+		max-width: 100%;
+		display: block;
 	}
 }
