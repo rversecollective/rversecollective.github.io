@@ -21,12 +21,10 @@ h1, h2, h3, h4, input {
 a {
 	color: #fff;
 	text-decoration: none;
-}
-a:hover {
 	border-bottom: 2px solid #fff;
 }
-#nav a:hover {
-	border: 0;
+#nav a {
+	border-bottom: 0;
 }
 
 /* NAV */
@@ -99,6 +97,9 @@ div.rock video {
 #main-info {
 	margin-top: 100px;
 }
+#main-info-title {
+	text-transform: lowercase;
+}
 #main-info-description {
 	width: 46%;
 	float: right;
@@ -152,6 +153,7 @@ div.rock video {
 	margin-left: 0;
 	display: block;
 	text-transform: lowercase;
+	margin-top: 300px;
 }
 #footer a {
 	margin: 0;
@@ -231,4 +233,25 @@ div.rock video {
 .profile-info h3 {
 	margin-bottom: 0;
 	line-height: 25px;
+}
+
+/* PHILOSOPHY */
+
+#philosophy {
+	padding: 0 60px;
+	display: block;
+}
+#philosophy-info {
+	margin-top: 100px;
+}
+#philosophy-info-title {
+	text-transform: lowercase;
+}
+#philosophy-info-description {
+	width: 46%;
+	float: right;
+	vertical-align: top;
+	margin-top: 0;
+	line-height: 25px;
+	display: inline-block;
 }
