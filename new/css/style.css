@@ -109,6 +109,13 @@ a {
 	float: right;
 	max-width: 700px;
 }
+.dual-info > span.left {
+	min-width: 700px;
+	float: left;
+}
+.dual-info img {
+	max-width: 150px;
+}
 
 /* PROJECTS */
 
@@ -221,8 +228,6 @@ a {
 	margin-top: 150px;
 }
 
-
-
 /* MOBILE */
 
 @media (max-width: 900px) {
@@ -251,5 +256,9 @@ a {
 	}
 	#nav-links a:hover {
 		background-image: none !important;
+	}
+	.dual-info > span {
+		display: block;
+		float: left !important;
 	}
 }
