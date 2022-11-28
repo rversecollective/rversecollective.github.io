@@ -267,4 +267,7 @@ a {
 		max-width: 100%;
 		display: block;
 	}
+	#above-button {
+		right: 50px;
+	}
 }
