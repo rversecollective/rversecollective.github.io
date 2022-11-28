@@ -233,15 +233,20 @@ a {
 		line-height: 0;
 		margin: 5px -3px 0 0;
 	}
-	#nav-links a {
+	#nav-links-expand {
 		display: none;
 	}
-	#nav-links:hover a {
+	#nav-links:hover #nav-links-expand {
+		display: bdlock;
+	}
+	#nav-links-expand a {
 		display: block;
 		margin-left: 0;
+		padding: 17px 0 17px 20px;
+		margin: 0 0 6px 0;
 	}
 	#nav-links-expand {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 	#nav-links a:hover {
 		background-image: none !important;

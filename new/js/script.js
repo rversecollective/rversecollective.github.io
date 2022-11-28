@@ -37,3 +37,15 @@ $('a').attr('target', function() {
 	if (this.host == location.host) return;
 	else return '_blank';
 });
+
+$('#hamburger').on('click', function () {
+	$('#nav-links-expand').show();
+});
+
+$('#hamburgereee').on('mouseout', function () {
+	$('#nav-links-expand').hide();
+});
+$('body').on('click', function (e) {
+	if (e.target.id == 'hamburger') return;
+	$('#nav-links-expand').hide();
+});
