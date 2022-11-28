@@ -150,9 +150,6 @@ a {
 	max-width: 50vw;
 	display: block;
 }
-#projects-secondary .projects-secondary {
-	margin-bottom: 100px;
-}
 #projects-secondary .projects-secondary:nth-child(odd) {
 	float: left;
 }
@@ -166,8 +163,9 @@ a {
 /* FOOTER */
 
 #footer {
+	display: block;
 	padding: 0 60px;
-	margin-bottom: 100px;
+	margin: 200px 0 100px;
 }
 #footer a {
 	margin-right: 40px;
@@ -182,7 +180,7 @@ a {
 	width: 50px;
 	height: 50px;
 	position: fixed;
-	bottom: 40px;
+	bottom: 80px;
 	right: 60px;
 	background: url('../img/nav/above-button.png');
 	background-size: 100%;
