@@ -258,6 +258,13 @@ a {
 		display: block;
 		float: left !important;
 	}
+	.dual-info > span, .dual-info a {
+		max-width: 100% !important;
+		overflow-wrap: break-word;
+	}
+	#projects-primary {
+		margin-bottom: 40px !important;
+	}
 	.projects-secondary {
 		width: 100% !important;
 		float: left !important;

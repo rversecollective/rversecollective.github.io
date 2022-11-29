@@ -1,0 +1,259 @@
+$description: Colour bamboozle
+$title: Colour bamboozle
+$theme: light
+
+[home]
+    # Colour bamboozle
+    <div id="board">
+        <div class="row" row="0">
+            <span class="cell" row="0" cell="0"></span>
+            <span class="cell" row="0" cell="1"></span>
+            <span class="cell" row="0" cell="2"></span>
+            <span class="cell" row="0" cell="3"></span>
+            <span class="cell" row="0" cell="4"></span>
+            <span class="cell" row="0" cell="5"></span>
+            <span class="cell" row="0" cell="6"></span>
+            <span class="cell" row="0" cell="7"></span>
+            <span class="cell" row="0" cell="8"></span>
+            <span class="cell" row="0" cell="9"></span>
+        </div>
+        <div class="row" row="1">
+            <span class="cell" row="1" cell="0"></span>
+            <span class="cell" row="1" cell="1"></span>
+            <span class="cell" row="1" cell="2"></span>
+            <span class="cell" row="1" cell="3"></span>
+            <span class="cell" row="1" cell="4"></span>
+            <span class="cell" row="1" cell="5"></span>
+            <span class="cell" row="1" cell="6"></span>
+            <span class="cell" row="1" cell="7"></span>
+            <span class="cell" row="1" cell="8"></span>
+            <span class="cell" row="1" cell="9"></span>
+        </div>
+        <div class="row" row="2">
+            <span class="cell" row="2" cell="0"></span>
+            <span class="cell" row="2" cell="1"></span>
+            <span class="cell" row="2" cell="2"></span>
+            <span class="cell" row="2" cell="3"></span>
+            <span class="cell" row="2" cell="4"></span>
+            <span class="cell" row="2" cell="5"></span>
+            <span class="cell" row="2" cell="6"></span>
+            <span class="cell" row="2" cell="7"></span>
+            <span class="cell" row="2" cell="8"></span>
+            <span class="cell" row="2" cell="9"></span>
+        </div>
+        <div class="row" row="3">
+            <span class="cell" row="3" cell="0"></span>
+            <span class="cell" row="3" cell="1"></span>
+            <span class="cell" row="3" cell="2"></span>
+            <span class="cell" row="3" cell="3"></span>
+            <span class="cell" row="3" cell="4"></span>
+            <span class="cell" row="3" cell="5"></span>
+            <span class="cell" row="3" cell="6"></span>
+            <span class="cell" row="3" cell="7"></span>
+            <span class="cell" row="3" cell="8"></span>
+            <span class="cell" row="3" cell="9"></span>
+        </div>
+        <div class="row" row="4">
+            <span class="cell" row="4" cell="0"></span>
+            <span class="cell" row="4" cell="1"></span>
+            <span class="cell" row="4" cell="2"></span>
+            <span class="cell" row="4" cell="3"></span>
+            <span class="cell" row="4" cell="4"></span>
+            <span class="cell" row="4" cell="5" status="hero"></span>
+            <span class="cell" row="4" cell="6" status="trail" trail="0"></span>
+            <span class="cell" row="4" cell="7"></span>
+            <span class="cell" row="4" cell="8"></span>
+            <span class="cell" row="4" cell="9"></span>
+        </div>
+        <div class="row" row="5">
+            <span class="cell" row="5" cell="0"></span>
+            <span class="cell" row="5" cell="1"></span>
+            <span class="cell" row="5" cell="2"></span>
+            <span class="cell" row="5" cell="3"></span>
+            <span class="cell" row="5" cell="4"></span>
+            <span class="cell" row="5" cell="5"></span>
+            <span class="cell" row="5" cell="6"></span>
+            <span class="cell" row="5" cell="7"></span>
+            <span class="cell" row="5" cell="8"></span>
+            <span class="cell" row="5" cell="9"></span>
+        </div>
+        <div class="row" row="6">
+            <span class="cell" row="6" cell="0"></span>
+            <span class="cell" row="6" cell="1"></span>
+            <span class="cell" row="6" cell="2"></span>
+            <span class="cell" row="6" cell="3"></span>
+            <span class="cell" row="6" cell="4"></span>
+            <span class="cell" row="6" cell="5"></span>
+            <span class="cell" row="6" cell="6"></span>
+            <span class="cell" row="6" cell="7"></span>
+            <span class="cell" row="6" cell="8"></span>
+            <span class="cell" row="6" cell="9"></span>
+        </div>
+        <div class="row" row="7">
+            <span class="cell" row="7" cell="0"></span>
+            <span class="cell" row="7" cell="1"></span>
+            <span class="cell" row="7" cell="2"></span>
+            <span class="cell" row="7" cell="3"></span>
+            <span class="cell" row="7" cell="4"></span>
+            <span class="cell" row="7" cell="5"></span>
+            <span class="cell" row="7" cell="6"></span>
+            <span class="cell" row="7" cell="7"></span>
+            <span class="cell" row="7" cell="8"></span>
+            <span class="cell" row="7" cell="9"></span>
+        </div>
+        <div class="row" row="8">
+            <span class="cell" row="8" cell="0"></span>
+            <span class="cell" row="8" cell="1"></span>
+            <span class="cell" row="8" cell="2"></span>
+            <span class="cell" row="8" cell="3"></span>
+            <span class="cell" row="8" cell="4"></span>
+            <span class="cell" row="8" cell="5"></span>
+            <span class="cell" row="8" cell="6"></span>
+            <span class="cell" row="8" cell="7"></span>
+            <span class="cell" row="8" cell="8"></span>
+            <span class="cell" row="8" cell="9"></span>
+        </div>
+        <div class="row" row="9">
+            <span class="cell" row="9" cell="0"></span>
+            <span class="cell" row="9" cell="1"></span>
+            <span class="cell" row="9" cell="2"></span>
+            <span class="cell" row="9" cell="3"></span>
+            <span class="cell" row="9" cell="4"></span>
+            <span class="cell" row="9" cell="5"></span>
+            <span class="cell" row="9" cell="6"></span>
+            <span class="cell" row="9" cell="7"></span>
+            <span class="cell" row="9" cell="8"></span>
+            <span class="cell" row="9" cell="9"></span>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        function randomPalette() {
+            palette = palettes[Math.floor(Math.random()*palettes.length)];
+        }
+
+        function randomFromPalette() {
+            return palette[Math.floor(Math.random()*palette.length)];
+        }
+
+        direction = 'left';
+
+        var palettes = [
+            ['#4b5267', '#8661c1', '#be97c6', '#efbcd5', '#2e294e'],
+            ['#c6ebbe', '#a9dbb8', '#7ca5b8', '#38369a', '#020887'],
+            ['#0a0903', '#ff0000', '#ff8200', '#ffc100', '#ffeaae'],
+            ['#0a0903', '#cfffb3', '#ade25d', '#fcec52', '#3b7080'],
+            ['#cc8b86', '#f9eae1', '#7d4f50', '#d1be9c', '#aa998f'],
+            ['#695958', '#b6c8a9', '#c8ead3', '#cfffe5', '#cedada'],
+            ['#ee6c4d', '#f38d68', '#662c91', '#17a398', '#33312e'],
+            ['#a7bed3', '#c6e2e9', '#f1ffc4', '#ffcaaf', '#dab894'],
+            ['#987284', '#9dbf9e', '#d0d6b5', '#f9b5ac', '#ee7674'],
+            ['#a5ffd6', '#817f75', '#b3b5bb', '#c5d9e2', '#cdfff9'],
+            ['#dbdbdb', '#b0b5b3', '#706f6f', '#ef27a6', '#ff299c']
+        ];
+
+        setInterval(function () {
+            randomPalette();
+        }, 2000);
+
+        randomPalette();
+
+        function getTrailFarthestFromHero() {
+            var els = document.querySelectorAll('[status=trail]'),
+            highest = 0,
+            i,
+            cur;
+
+            for (i = 0; i < els.length; i++) {
+                cur = parseInt(els[i].getAttribute('trail'), 10);
+                if (els[i].getAttribute('trail') > highest) {
+                    highest = cur;
+                }
+            }
+            return highest;
+        }
+
+        function clearCell(element) {
+            element.removeAttribute('status');
+            element.removeAttribute('trail');
+        }
+
+        function makeHero(element) {
+            var randomDegree = Math.floor(Math.random() * 359);
+            element.setAttribute('status', 'hero');
+            element.setAttribute('style', 'background: ' + randomFromPalette() + ' !important;');
+            element.style.opacity = 1;
+        }
+
+        function makeTrail(element) {
+            element.setAttribute('status', 'trail');
+            element.setAttribute('trail', '0');
+        }
+
+        function moveHero() {
+            var hero = document.querySelector('[status=hero]');
+            var trail = document.querySelectorAll('[status=trail]');
+            var previousRow = (Number(hero.getAttribute('row')) - 1);
+            var nextRow = (Number(hero.getAttribute('row')) + 1);
+
+            var directions = ['up', 'right', 'down', 'left'];
+            var direction = directions[Math.floor(Math.random()*directions.length)];
+
+            if (direction == 'up') {
+                var nextHero = document.querySelectorAll('.row')[previousRow].querySelector('.cell[cell="' + hero.getAttribute('cell') + '"]');
+            } else if (direction == 'down') {
+                var nextHero = document.querySelectorAll('.row')[nextRow].querySelector('.cell[cell="' + hero.getAttribute('cell') + '"]');
+            } else if (direction == 'left') {
+                var nextHero = hero.previousElementSibling;
+            } else if (direction == 'right') {
+                var nextHero = hero.nextElementSibling;
+            }
+            if (!nextHero) return;
+
+            makeTrail(hero);
+            makeHero(nextHero);
+
+            for (i = 0; i < trail.length; i++) {
+                trail[i].setAttribute('trail', Number(trail[i].getAttribute('trail')) + 1);
+                if (Number(trail[i].getAttribute('trail')) > 60) {
+                trail[i].style.opacity = 0;
+            }
+            }
+        }
+        var timer = setInterval(function() {
+            moveHero();
+        }, 10);
+
+    </script>
+    
+$style:
+    h1 {
+        color: #6c5ce7;
+    }
+    html {
+        margin:0px;
+        height:100%;
+        overflow: hidden;
+    }
+    body {
+        background: #fff !important;
+        color: #000 !important;
+        margin:0px;
+        height:100%;
+        overflow: hidden;
+    }
+    * {
+    }
+    .row {
+    display: block !important;
+    width: 400px;
+    height: 20px;
+    }
+
+    .cell {
+        margin: 0px -4px 0 0 !important;
+        display: inline-block !important;
+        width: 20px;
+        height: 20px;
+        margin-left: -1px !important;
+    }
