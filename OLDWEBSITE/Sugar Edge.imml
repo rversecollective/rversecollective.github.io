@@ -1,0 +1,84 @@
+$description: Sugar Edge
+$title: Sugar Edge
+$theme: dark
+
+[home]
+    <div class="nav"></div>
+    <h1 id="logo">Sugar<span id="symbol">_</span>Edge</h1>
+
+    <p>We can't simply adapt the stories of the real world into virtual realms. The emerging world requires radical imagination and a keen smell for shifting realities.
+
+    What happens when you put new technologies in the hands of creatives? That's our curiosity.</p>
+
+    <video width="100%" muted autoplay loop>
+        <source src="https://sugaredgecollective.com/video/01_rock.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+    
+    [[who(Who are we?)]]
+        <div class="nav"></div>
+        <h1>Who?</h1>
+
+        <p>Sugar Edge collective is co-run by three beating hearts.</p>
+
+        Follow us: <a target="_blank" href="https://www.instagram.com/sugar.edge.collective">@sugar.edge.collective</a>
+        <div id="team">
+            <div class="team-member">
+                <img src="https://sugaredgecollective.com/img/dagmar.jpg" />
+                <div class="team-member-desc">
+                    <span class="team-member-name">Dagmar Irrig</span>
+                    <a target="_blank" href="https://www.instagram.com/dagmarirrig/">@dagmarirrig</a>
+                    <span class="team-member-title">3d artist, motion designer & runner</span>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://sugaredgecollective.com/img/tua.jpg" />
+                <div class="team-member-desc">
+                    <span class="team-member-name">Tua Asplund</span>
+                    <span class="team-member-title">Business strategist, creative thinker & technologist</span>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://sugaredgecollective.com/img/tomo.jpg" />
+                <div class="team-member-desc">
+                    <span class="team-member-name">Tomo Myrman</span>
+                    <a target="_blank" href="https://www.instagram.com/neontomo">@neontomo</a>
+                    <span class="team-member-title">Artist, programmer & provocateur</span>
+                </div>
+            </div>
+        </div>
+        <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+        <span id="keep-scrolling">Keep scrolling.</span>
+        <div id="glow-arena">
+            <span class="glow" name="Tua"></span>
+            <span class="glow" name="Dagmar"></span>
+            <span class="glow" name="Tomo"></span>
+            <span class="glow" name="You"></span>
+        </div>
+
+    [[projects(Projects)]]
+        <div class="nav"></div>
+        <h1>Projects</h1>
+
+        <p>Recycling is for plastics, not experiences.</p>
+
+        <div id="projects-list">
+            <div class="project">
+                <strong class="project_name">2022_UN Women</strong>
+                <p class="project_description">We have developed Instagram filters for UN Women, to raise awareness for violence perpetrated against women around the world.</p>
+            </div>
+            <div class="project">
+                <strong class="project_name">2022_Min Stora Sorg</strong>
+                <p class="project_description">A prominent Swedish artist worked with us to develop novel concert experiences, by merging the virtual and physical world.</p>
+            </div>
+        </div>
+        <a href="mailto:sugar.edge.collective@gmail.com?subject=Let's work together" class="button">get in touch</a>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script random=true src="js/functions.js"></script>
+    <script random=true src="js/script.js"></script>
+    <link random=true rel=stylesheet href="css/style.css" type="text/css" />
+$style:
+    <style>
+    </style>
